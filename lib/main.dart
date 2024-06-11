@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:quizzit/src/pages/spalch_screen.dart';
+import 'package:quizzit/src/pages/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
