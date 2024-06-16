@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:quizzit/src/pages/home_page.dart';
 
 class StartPage extends StatefulWidget {
   const StartPage({super.key});
@@ -20,10 +21,10 @@ class _StartPageState extends State<StartPage> {
           title: Text(
             textAlign: TextAlign.center,
             "QUIZZIT",
-            style: GoogleFonts.roboto(
+            style: GoogleFonts.ubuntu(
               fontSize: 70,
-              color: const Color(0xFF4257b2),
-              fontWeight: FontWeight.bold,
+              color: Colors.grey[800],
+              fontWeight: FontWeight.w900,
             ),
           ),
           subtitle: Text(
@@ -57,10 +58,16 @@ class _StartPageState extends State<StartPage> {
               elevation: 20,
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(20)),
-              color: const Color(0xFF4257b2),
-              onPressed: () {},
+              color: Colors.grey[800],
+              onPressed: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => HomePage()));
+              },
               child: Text("Start Playing!",
-                  style: GoogleFonts.roboto(fontSize: 16, color: Colors.white)),
+                  style: GoogleFonts.roboto(
+                      fontSize: 16,
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold)),
             ),
           ),
         ],
