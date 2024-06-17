@@ -23,7 +23,7 @@ class _StartPageState extends State<StartPage> {
             "QUIZZIT",
             style: GoogleFonts.ubuntu(
               fontSize: 70,
-              color: Colors.grey[800],
+              color: Theme.of(context).colorScheme.primary,
               fontWeight: FontWeight.w900,
             ),
           ),
@@ -52,20 +52,21 @@ class _StartPageState extends State<StartPage> {
             ),
           ),
           Container(
-            margin: const EdgeInsets.only(top: 50),
+            margin: const EdgeInsets.only(top: 100),
             child: MaterialButton(
+              height: 50,
               minWidth: 250,
               elevation: 20,
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(20)),
-              color: Colors.grey[800],
+              color: Theme.of(context).colorScheme.primary,
               onPressed: () {
                 Navigator.push(context,
                     MaterialPageRoute(builder: (context) => HomePage()));
               },
               child: Text("Start Playing!",
                   style: GoogleFonts.roboto(
-                      fontSize: 16,
+                      fontSize: 20,
                       color: Colors.white,
                       fontWeight: FontWeight.bold)),
             ),
