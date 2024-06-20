@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:quizzit/src/pages/home_page.dart';
+import 'package:quizzit/src/pages/home_page/home_page.dart';
 
 class StartPage extends StatefulWidget {
   const StartPage({super.key});
@@ -12,10 +12,9 @@ class StartPage extends StatefulWidget {
 class _StartPageState extends State<StartPage> {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-        home: Scaffold(
+    return Scaffold(
       appBar: AppBar(
-        toolbarHeight: 300,
+        toolbarHeight: MediaQuery.of(context).size.height * 0.3,
         centerTitle: true,
         title: ListTile(
           title: Text(
@@ -45,24 +44,25 @@ class _StartPageState extends State<StartPage> {
                 color: Colors.grey, borderRadius: BorderRadius.circular(50)),
             alignment: Alignment.center,
             margin: EdgeInsets.symmetric(horizontal: 50),
-            height: 300,
+            height: MediaQuery.of(context).size.height * 0.4,
             child: const Text(
               "<LOGOIMAGEHERE>",
               style: TextStyle(fontWeight: FontWeight.bold),
             ),
           ),
           Container(
-            margin: const EdgeInsets.only(top: 100),
+            margin: EdgeInsets.only(
+                top: (MediaQuery.of(context).size.height * 0.1)),
             child: MaterialButton(
-              height: 50,
-              minWidth: 250,
+              height: MediaQuery.of(context).size.height * 0.07,
+              minWidth: MediaQuery.of(context).size.width * 0.6,
               elevation: 20,
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(20)),
               color: Theme.of(context).colorScheme.primary,
               onPressed: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => HomePage()));
+                    MaterialPageRoute(builder: (context) => const HomePage()));
               },
               child: Text("Start Playing!",
                   style: GoogleFonts.roboto(
@@ -73,6 +73,6 @@ class _StartPageState extends State<StartPage> {
           ),
         ],
       ),
-    ));
+    );
   }
 }
