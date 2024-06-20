@@ -1,3 +1,11 @@
+/*
+Author: Abdelrahman Hany Metawei
+Date: 21-06-2024
+Description:
+  This Flutter file contains the results page that the user views after finishing
+  a quiz where they can view how well they performed in a quiz (their completion
+  percentage, correct & wrong answers, and the amound of questions).
+*/
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:quizzit/src/pages/results_page/score_stack.dart';

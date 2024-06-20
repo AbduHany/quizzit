@@ -1,3 +1,10 @@
+/*
+Author: Abdelrahman Hany Metawei
+Date: 17-06-2024
+Description:
+  This Flutter file contains the start page of Quizzit that users view the very
+  first time they open the app.
+*/
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:quizzit/src/pages/home_page/home_page.dart';
