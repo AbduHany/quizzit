@@ -9,6 +9,7 @@ Description:
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:quizzit/src/pages/home_page/strike_card.dart';
+import 'package:quizzit/src/pages/profile_page/profile_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -20,8 +21,8 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    double ScreenWidth = MediaQuery.of(context).size.width;
-    List<String> Categories = [
+    double screenWidth = MediaQuery.of(context).size.width;
+    List<String> categories = [
       "History",
       "Geography",
       "Sports",
@@ -59,11 +60,11 @@ class _HomePageState extends State<HomePage> {
           ),
           // The Card keeping track of consecutive logins for the user
           StrikeCard(),
-          // The Categories of the quizez
+          // The categories of the quizez
           Container(
-            margin: EdgeInsets.only(top: 50, left: 20),
+            margin: const EdgeInsets.only(top: 50, left: 20),
             child: Text(
-              "Categories",
+              "categories",
               style: GoogleFonts.poppins(fontSize: 25),
             ),
           ),
@@ -71,22 +72,23 @@ class _HomePageState extends State<HomePage> {
             margin: const EdgeInsets.symmetric(horizontal: 10),
             child: Wrap(
               children: [
-                ...List.generate(Categories.length, (index) {
+                ...List.generate(categories.length, (index) {
                   return Container(
-                    width: (ScreenWidth - 20) / 2,
-                    height: (ScreenWidth - 20) / 2,
-                    padding: EdgeInsets.all(10),
+                    width: (screenWidth - 20) / 2,
+                    height: (screenWidth - 20) / 2,
+                    padding: const EdgeInsets.all(10),
                     child: MaterialButton(
                         elevation: 50,
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(20),
-                            side: BorderSide(width: 1, color: Colors.grey)),
+                            side:
+                                const BorderSide(width: 1, color: Colors.grey)),
                         onPressed: () {},
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Container(
-                              margin: EdgeInsets.only(bottom: 10),
+                              margin: const EdgeInsets.only(bottom: 10),
                               decoration: BoxDecoration(
                                   color: Colors.grey,
                                   borderRadius: BorderRadius.circular(10)),
@@ -98,7 +100,7 @@ class _HomePageState extends State<HomePage> {
                               ),
                             ),
                             Text(
-                              Categories[index],
+                              categories[index],
                               textAlign: TextAlign.center,
                               style: GoogleFonts.poppins(
                                   fontSize: 12, fontWeight: FontWeight.w600),
@@ -113,20 +115,23 @@ class _HomePageState extends State<HomePage> {
         ],
       ),
       // Bottom naviagation bar with the icons
-      bottomNavigationBar: Container(
+      bottomNavigationBar: SizedBox(
         height: 50,
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
             IconButton(
               onPressed: () {},
-              icon: Icon(Icons.home),
+              icon: const Icon(Icons.home),
               iconSize: 30,
               color: Colors.grey[900],
             ),
             IconButton(
-              onPressed: () {},
-              icon: Icon(Icons.person),
+              onPressed: () {
+                Navigator.of(context).pushReplacement(MaterialPageRoute(
+                    builder: (context) => const ProfilePage()));
+              },
+              icon: const Icon(Icons.person),
               iconSize: 30,
               color: Colors.grey[900],
             ),
