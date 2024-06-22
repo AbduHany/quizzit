@@ -10,6 +10,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class StrikeCard extends StatefulWidget {
+  const StrikeCard({super.key});
   @override
   State<StrikeCard> createState() => _StrikeCardState();
 }
@@ -47,7 +48,7 @@ class _StrikeCardState extends State<StrikeCard> {
                     ],
                   ),
                   Container(
-                    margin: EdgeInsets.only(right: 10),
+                    margin: const EdgeInsets.only(right: 10),
                     height: 50,
                     width: 50,
                     decoration: BoxDecoration(

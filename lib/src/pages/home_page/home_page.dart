@@ -8,6 +8,7 @@ Description:
  */
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:quizzit/src/pages/home_page/diff_selection.dart';
 import 'package:quizzit/src/pages/home_page/strike_card.dart';
 import 'package:quizzit/src/pages/profile_page/profile_page.dart';
 
@@ -30,11 +31,8 @@ class _HomePageState extends State<HomePage> {
       "Animals",
       "Science",
       "Languages",
-      "Pokemon"
+      "Pokemon",
     ];
-
-    String chosenDifficulty = "Easy";
-    String chosenCategory = categories[0];
 
     return Scaffold(
       body: ListView(
@@ -62,12 +60,12 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
           // The Card keeping track of consecutive logins for the user
-          StrikeCard(),
+          const StrikeCard(),
           // The categories of the quizez
           Container(
             margin: const EdgeInsets.only(top: 50, left: 20),
             child: Text(
-              "categories",
+              "Categories",
               style: GoogleFonts.poppins(fontSize: 25),
             ),
           ),
@@ -90,96 +88,9 @@ class _HomePageState extends State<HomePage> {
                           showDialog(
                               context: context,
                               builder: (context) {
-                                return AlertDialog(
-                                  alignment: Alignment.center,
-                                  content: SizedBox(
-                                    height: MediaQuery.of(context).size.height *
-                                        0.19,
-                                    child: Column(
-                                      mainAxisAlignment:
-                                          MainAxisAlignment.center,
-                                      children: [
-                                        Text(
-                                          "Select difficulty: ",
-                                          textAlign: TextAlign.left,
-                                          style: GoogleFonts.poppins(
-                                              fontSize: 20,
-                                              fontWeight: FontWeight.bold,
-                                              color: Theme.of(context)
-                                                  .colorScheme
-                                                  .primary),
-                                        ),
-                                        SizedBox(
-                                          height: 5,
-                                        ),
-                                        DropdownMenu(
-                                          initialSelection: "Easy",
-                                          onSelected: (val) {
-                                            setState(() {
-                                              chosenCategory =
-                                                  categories[index];
-                                              chosenDifficulty = val!;
-                                            });
-                                          },
-                                          dropdownMenuEntries: const [
-                                            DropdownMenuEntry(
-                                                value: "Easy",
-                                                label: "Easy 😊"),
-                                            DropdownMenuEntry(
-                                                value: "Medium",
-                                                label: "Medium 🥲"),
-                                            DropdownMenuEntry(
-                                                value: "Hard",
-                                                label: "Hard 😭"),
-                                            DropdownMenuEntry(
-                                                value: "Random",
-                                                label: "Random 🤪")
-                                          ],
-                                          width: MediaQuery.of(context)
-                                                  .size
-                                                  .width *
-                                              0.4,
-                                        ),
-                                        SizedBox(
-                                          height: 10,
-                                        ),
-                                        /*
-                                        START QUIZ BUTTON:
-                                          Category of quiz is stored in chosenCategory &
-                                          Difficulty of quiz is stored in chosenDifficulty
-                                          variables
-                                        */
-                                        MaterialButton(
-                                          shape: RoundedRectangleBorder(
-                                              borderRadius:
-                                                  BorderRadius.circular(10)),
-                                          minWidth: MediaQuery.of(context)
-                                                  .size
-                                                  .width *
-                                              0.4,
-                                          height: MediaQuery.of(context)
-                                                  .size
-                                                  .height *
-                                              0.05,
-                                          color: Theme.of(context)
-                                              .colorScheme
-                                              .primary,
-                                          onPressed: () {
-                                            //just a test for category and diff
-                                            print(chosenCategory);
-                                            print(chosenDifficulty);
-                                          },
-                                          child: Text(
-                                            "Start Quiz!",
-                                            style: GoogleFonts.poppins(
-                                                color: Colors.white,
-                                                fontSize: 15),
-                                          ),
-                                        )
-                                      ],
-                                    ),
-                                  ),
-                                );
+                                return DiffSelection(
+                                    categories: categories,
+                                    categoryIndex: index);
                               });
                         },
                         child: Column(
