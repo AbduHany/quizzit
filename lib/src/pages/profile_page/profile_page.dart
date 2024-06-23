@@ -8,6 +8,7 @@ Description:
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:quizzit/src/pages/home_page/home_page.dart';
+import 'package:quizzit/src/pages/profile_page/edit_profile.dart';
 
 class ProfilePage extends StatefulWidget {
   const ProfilePage({super.key});
@@ -19,6 +20,10 @@ class ProfilePage extends StatefulWidget {
 }
 
 class _ProfilePageState extends State<ProfilePage> {
+  String firstName = "Darth";
+  String lastName = "Vader";
+  String gender = "Male";
+  String dateOfBirth = "03/08/1994";
   List<Map<String, String>> stats = [
     {"Games": "80"},
     {"Total Points": "1032"},
@@ -49,8 +54,74 @@ class _ProfilePageState extends State<ProfilePage> {
                   ),
                   Positioned(
                       right: 10,
-                      child: IconButton(
-                          onPressed: () {}, icon: const Icon(Icons.settings))),
+                      child: PopupMenuButton(
+                        itemBuilder: (context) {
+                          return [
+                            // Edit Profile Page
+                            PopupMenuItem(
+                              onTap: () {
+                                Navigator.of(context).push(MaterialPageRoute(
+                                    builder: (context) => const EditProfile()));
+                              },
+                              child: const Text("Edit Profile"),
+                            ),
+                            // The Reset Stats Button
+                            PopupMenuItem(
+                                onTap: () {
+                                  showDialog(
+                                      context: context,
+                                      builder: (context) => AlertDialog(
+                                            content: SizedBox(
+                                              height: MediaQuery.of(context)
+                                                      .size
+                                                      .height *
+                                                  0.09,
+                                              child: Column(
+                                                mainAxisAlignment:
+                                                    MainAxisAlignment.center,
+                                                children: [
+                                                  const Text("Are you sure?"),
+                                                  Row(
+                                                      mainAxisAlignment:
+                                                          MainAxisAlignment
+                                                              .center,
+                                                      children: [
+                                                        MaterialButton(
+                                                            onPressed: () {
+                                                              Navigator.of(
+                                                                      context)
+                                                                  .pop();
+                                                            },
+                                                            child: const Text(
+                                                                "No")),
+                                                        MaterialButton(
+                                                            // Adding the logic of resetting the Profile stats
+                                                            onPressed: () {},
+                                                            child: const Text(
+                                                              "Yes",
+                                                              style: TextStyle(
+                                                                  color: Colors
+                                                                      .red,
+                                                                  fontWeight:
+                                                                      FontWeight
+                                                                          .bold),
+                                                            ))
+                                                      ])
+                                                ],
+                                              ),
+                                            ),
+                                          ));
+                                },
+                                child: const Text(
+                                  "Reset stats",
+                                  style: TextStyle(
+                                      color: Colors.red,
+                                      fontWeight: FontWeight.bold),
+                                ))
+                          ];
+                        },
+                        icon: const Icon(Icons.settings),
+                      )),
                 ],
               ),
             ),
@@ -94,7 +165,7 @@ class _ProfilePageState extends State<ProfilePage> {
                 Positioned(
                   top: MediaQuery.of(context).size.height * 0.2,
                   child: Text(
-                    "Darth Vader",
+                    "$firstName $lastName",
                     style: GoogleFonts.poppins(
                       fontSize: 25,
                       color: Colors.white,
@@ -102,7 +173,9 @@ class _ProfilePageState extends State<ProfilePage> {
                     ),
                   ),
                 ),
-                // Stats boxes read from a Map defined above with each stat and value
+                /* Stats boxes read from a Map defined above with each stat and value
+                stats are being read from the variable stats declared above.
+                */
                 Positioned(
                     top: MediaQuery.of(context).size.height * 0.25,
                     child: SizedBox(
