@@ -1,0 +1,5405 @@
+{
+    "version": 1,
+    "quiz": [
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "What is Canada&#039;s largest island?",
+            "correct_answer": "Baffin Island",
+            "incorrect_answers": [
+                "Prince Edward Island",
+                "Vancouver Island",
+                "Newfoundland"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "What is the county seat of King County, Washington?",
+            "correct_answer": "Seattle",
+            "incorrect_answers": [
+                "Bellevue",
+                "Enumclaw",
+                "Skykomish"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "Into which basin does the Jordan River flow into?",
+            "correct_answer": "Dead Sea",
+            "incorrect_answers": [
+                "Aral Sea",
+                "Caspian Sea",
+                "Salton Sea"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "What year is on the flag of the US state Wisconsin?",
+            "correct_answer": "1848",
+            "incorrect_answers": [
+                "1634",
+                "1783",
+                "1901"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "Which country is the Taedong River in?",
+            "correct_answer": "North Korea",
+            "incorrect_answers": [
+                "South Korea",
+                "Japan",
+                "China"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "What city is known as the Rose Capital of the World?",
+            "correct_answer": "Tyler, Texas",
+            "incorrect_answers": [
+                "San Diego, California",
+                "Miami, Florida",
+                "Anaheim, California"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "The prefix Sino- (As in Sino-American) is used to refer to what nationality?",
+            "correct_answer": "Chinese",
+            "incorrect_answers": [
+                "Japanese",
+                "Russian",
+                "Indian"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "What is the most common climbing route for the second highest mountain in the world, K2?",
+            "correct_answer": "Abruzzi Spur",
+            "incorrect_answers": [
+                "Magic Line",
+                "Cesen Route",
+                "Polish Line"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "When does Finland celebrate their independence day?",
+            "correct_answer": "December 6th",
+            "incorrect_answers": [
+                "January 2nd",
+                "November 12th",
+                "February 8th"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "In which city, is the Big Nickel located in Canada?",
+            "correct_answer": "Sudbury, Ontario",
+            "incorrect_answers": [
+                "Calgary, Alberta",
+                "Halifax, Nova Scotia ",
+                "Victoria, British Columbia"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "Which of these countries is NOT a part of the Asian continent?",
+            "correct_answer": "Suriname",
+            "incorrect_answers": [
+                "Georgia",
+                "Russia",
+                "Singapore"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "What is the name of the formerly rich fishing grounds off the island of Newfoundland, Canada?",
+            "correct_answer": "Grand Banks",
+            "incorrect_answers": [
+                "Great Barrier Reef",
+                "Mariana Trench",
+                "Hudson Bay"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "What is the name of the Canadian national anthem?",
+            "correct_answer": "O Canada",
+            "incorrect_answers": [
+                "O Red Maple",
+                "Leaf-Spangled Banner",
+                "March of the Puck Drop"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "What North American tourist attraction is served by the &quot;Maid of the Mist&quot; tour company?",
+            "correct_answer": "Niagara Falls",
+            "incorrect_answers": [
+                "Whistler, British Columbia",
+                "Disney World",
+                "Yosemite National Park"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "Which of these island countries is located in the Caribbean?",
+            "correct_answer": "Barbados",
+            "incorrect_answers": [
+                "Fiji",
+                "Maldives",
+                "Seychelles"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "What is the second-largest city in Lithuania?",
+            "correct_answer": "Kaunas",
+            "incorrect_answers": [
+                "Panev\u0117\u017eys",
+                "Vilnius",
+                "Klaip\u0117da"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "In which country is Tallinn located?",
+            "correct_answer": "Estonia",
+            "incorrect_answers": [
+                "Finland",
+                "Sweden",
+                "Poland"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "What is the Finnish word for &quot;Finland&quot;?",
+            "correct_answer": "Suomi",
+            "incorrect_answers": [
+                "Eesti",
+                "Magyarorsz&aacute;g",
+                "Sverige"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "Which is the largest freshwater lake in the world?",
+            "correct_answer": "Lake Superior ",
+            "incorrect_answers": [
+                "Caspian Sea",
+                "Lake Michigan",
+                "Lake Huron"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "The Andaman and Nicobar Islands in South East Asia are controlled by which country?",
+            "correct_answer": "India",
+            "incorrect_answers": [
+                "Vietnam",
+                "Thailand",
+                "Indonesia"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "What is the most populous Muslim-majority nation in 2010?",
+            "correct_answer": "Indonesia",
+            "incorrect_answers": [
+                "Saudi Arabia",
+                "Iran",
+                "Sudan"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "The Hunua Ranges is located in...",
+            "correct_answer": "New Zealand",
+            "incorrect_answers": [
+                "Nepal",
+                "China",
+                "Mexico"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "What country is not a part of Scandinavia?",
+            "correct_answer": "Finland",
+            "incorrect_answers": [
+                "Norway",
+                "Sweden",
+                "Denmark"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "What is the capital of Wisconsin, USA?",
+            "correct_answer": "Madison",
+            "incorrect_answers": [
+                "Milwaukee",
+                "Wisconsin Dells",
+                "Green Bay"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "The mountainous Khyber Pass connects which of the two following countries?",
+            "correct_answer": "Afghanistan and Pakistan",
+            "incorrect_answers": [
+                "India and Nepal",
+                "Pakistan and India",
+                "Tajikistan and Kyrgyzstan"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "What is the official German name of the Swiss Federal Railways?",
+            "correct_answer": "Schweizerische Bundesbahnen",
+            "incorrect_answers": [
+                "Schweizerische Nationalbahnen",
+                "Bundesbahnen der Schweiz",
+                "Schweizerische Staatsbahnen"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "What is the capital of Mauritius?",
+            "correct_answer": "Port Louis",
+            "incorrect_answers": [
+                "Port Moresby",
+                "Port Vila",
+                "Port-au-Prince"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "The Maluku islands (informally known as the Spice Islands) belong to which country?",
+            "correct_answer": "Indonesia",
+            "incorrect_answers": [
+                "Chile",
+                "New Zealand",
+                "Fiji"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "Which of these is NOT a province in China?",
+            "correct_answer": "Yangtze",
+            "incorrect_answers": [
+                "Fujian",
+                "Sichuan",
+                "Guangdong"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "Which is not a country in Africa?",
+            "correct_answer": "Guyana",
+            "incorrect_answers": [
+                "Senegal",
+                "Liberia",
+                "Somalia"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "The emblem on the flag of the Republic of Tajikistan features a sunrise over mountains below what symbol?",
+            "correct_answer": "Crown",
+            "incorrect_answers": [
+                "Bird",
+                "Sickle",
+                "Tree"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "What is the name of rocky region that spans most of eastern Canada?",
+            "correct_answer": "Canadian Shield",
+            "incorrect_answers": [
+                "Rocky Mountains",
+                "Appalachian Mountains",
+                "Himalayas"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "In 2012 the German-speaking microstate &quot;Liechtenstein&quot; in Central Europe had a population of how many inhabitants?",
+            "correct_answer": "36,600",
+            "incorrect_answers": [
+                "2,400",
+                "90,000",
+                "323,400"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "Which of these is NOT a city in India?",
+            "correct_answer": "Islamabad",
+            "incorrect_answers": [
+                "Hyderabad",
+                "Ahmedabad",
+                "Ghaziabad"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "Where is the fast food chain &quot;Panda Express&quot; headquartered?",
+            "correct_answer": "Rosemead, California",
+            "incorrect_answers": [
+                "Sacramento, California",
+                "Fresno, California",
+                "San Diego, California"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "Which of these is NOT a real tectonic plate?",
+            "correct_answer": "Atlantic Plate",
+            "incorrect_answers": [
+                "North American Plate",
+                "Eurasian Plate",
+                "Nazca Plate"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "Which of these cities has a 4&deg; East longitude. ",
+            "correct_answer": "Amsterdam",
+            "incorrect_answers": [
+                "Rio de Janero",
+                "Toronto",
+                "Hong Kong"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "What is the name of one of the Neo-Aramaic languages spoken by the Jewish population from Northwestern Iraq?",
+            "correct_answer": "Lishana Deni",
+            "incorrect_answers": [
+                "Hulaul&aacute;",
+                "Lishan Didan",
+                "Chaldean Neo-Aramaic"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "How many stations does the Central Line have on the London Underground?",
+            "correct_answer": "49",
+            "incorrect_answers": [
+                "51",
+                "43",
+                "47"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "Which country was NOT formerly part of Yugoslavia?",
+            "correct_answer": "Albania",
+            "incorrect_answers": [
+                "Croatia",
+                "Serbia",
+                "Macedonia"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "How many countries border Kyrgyzstan?",
+            "correct_answer": "4",
+            "incorrect_answers": [
+                "3",
+                "1",
+                "6"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "Which of these cities is NOT in England?",
+            "correct_answer": "Edinburgh",
+            "incorrect_answers": [
+                "Oxford",
+                "Manchester",
+                "Southampton"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "What national museum will you find in Cooperstown, New York?",
+            "correct_answer": "National Baseball Hall of Fame",
+            "incorrect_answers": [
+                "Metropolitan Museum of Art",
+                "National Toy Hall of Fame",
+                "Museum of Modern Art"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "What is the area of Vatican City?",
+            "correct_answer": "0.44km^2",
+            "incorrect_answers": [
+                "0.10km^2",
+                "0.86km^2",
+                "12.00km^2"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "Bir Tawil, an uninhabited track of land claimed by no country, is located along the border of which two countries?",
+            "correct_answer": "Egypt and Sudan",
+            "incorrect_answers": [
+                "Israel and Jordan",
+                "Chad and Libya",
+                "Iraq and Saudi Arabia"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "Which of the following Inuit languages was the FIRST to use a unique writing system not based on the Latin alphabet?",
+            "correct_answer": "Inuktitut",
+            "incorrect_answers": [
+                "Inuinnaqtun",
+                "Greenlandic",
+                "Inupiat"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "What is the largest freshwater lake by volume?",
+            "correct_answer": "Lake Baikal",
+            "incorrect_answers": [
+                "Lake Superior",
+                "Lake Huron",
+                "Lake Michigan"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "What is the land connecting North America and South America?",
+            "correct_answer": "Isthmus of Panama",
+            "incorrect_answers": [
+                "Isthmus of Suez",
+                "Urals",
+                "Australasia"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "Llanfair&shy;pwllgwyngyll&shy;gogery&shy;chwyrn&shy;drobwll&shy;llan&shy;tysilio&shy;gogo&shy;goch is located on which Welsh island?",
+            "correct_answer": "Anglesey",
+            "incorrect_answers": [
+                "Barry",
+                "Bardsey",
+                "Caldey"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "What is the tallest mountain in Canada?",
+            "correct_answer": "Mount Logan",
+            "incorrect_answers": [
+                "Mont Tremblant",
+                "Whistler Mountain",
+                "Blue Mountain"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "Which country does Austria not border?",
+            "correct_answer": "France",
+            "incorrect_answers": [
+                "Slovenia",
+                "Switzerland",
+                "Slovakia"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "What is the capital of Denmark?",
+            "correct_answer": "Copenhagen",
+            "incorrect_answers": [
+                "Aarhus",
+                "Odense",
+                "Aalborg"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "What is the Polish city known to Germans as Danzig?",
+            "correct_answer": "Gda\u0144sk",
+            "incorrect_answers": [
+                "Warsaw",
+                "Zakopane",
+                "Pozna\u0144"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "Which nation claims ownership of Antarctica?",
+            "correct_answer": "No one, but there are claims.",
+            "incorrect_answers": [
+                "United States of America",
+                "United Nations",
+                "Australia"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "What is the nickname for the US state Delaware?",
+            "correct_answer": "The First State",
+            "incorrect_answers": [
+                "The Fiftieth State",
+                "The Second State",
+                "The Sixteenth State"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "Which of the following Arab countries does NOT have a flag containing only Pan-Arab colours?",
+            "correct_answer": "Qatar",
+            "incorrect_answers": [
+                "Kuwait",
+                "United Arab Emirates",
+                "Jordan"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "What name was historically used for the Turkish city currently known as Istanbul?",
+            "correct_answer": "Constantinople",
+            "incorrect_answers": [
+                "H&uuml;davendigar",
+                "S&ouml;\u011f&uuml;t",
+                "Adrianople"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "Greenland is a part of which kingdom?",
+            "correct_answer": "Denmark",
+            "incorrect_answers": [
+                "Sweden",
+                "Norway",
+                "United Kingdom"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "How many countries does the United States share a land border with?",
+            "correct_answer": "2",
+            "incorrect_answers": [
+                "1",
+                "3",
+                "4"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "How many federal states does Germany have?",
+            "correct_answer": "16",
+            "incorrect_answers": [
+                "13",
+                "32",
+                "25"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "What is the capital of the American state of Arizona?",
+            "correct_answer": "Phoenix",
+            "incorrect_answers": [
+                "Montgomery",
+                "Tallahassee",
+                "Raleigh"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "How many time zones does China have?",
+            "correct_answer": "1",
+            "incorrect_answers": [
+                "3",
+                "4",
+                "2"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "Which country was NOT part of the Soviet Union?",
+            "correct_answer": "Romania",
+            "incorrect_answers": [
+                "Turkmenistan",
+                "Belarus",
+                "Tajikistan"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "What is the capital of Jamaica?",
+            "correct_answer": "Kingston",
+            "incorrect_answers": [
+                "San Juan",
+                "Port-au-Prince",
+                "Bridgetown"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "Which UK country features a dragon on their flag?",
+            "correct_answer": "Wales",
+            "incorrect_answers": [
+                "England",
+                "North Ireland",
+                "Scotland"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "Where would you find the &quot;Spanish Steps&quot;?",
+            "correct_answer": "Rome, Italy",
+            "incorrect_answers": [
+                "Barcelona, Spain",
+                "Berlin, Germany",
+                "London, England"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "The longest shared border in the world can be found between which two nations?",
+            "correct_answer": "Canada and the United States",
+            "incorrect_answers": [
+                "Chile and Argentina",
+                "Russia and China",
+                "India and Pakistan"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "What is the capital of the US State of New York?",
+            "correct_answer": "Albany",
+            "incorrect_answers": [
+                "Buffalo",
+                "New York",
+                "Rochester"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "Which US state has the highest population?",
+            "correct_answer": "California",
+            "incorrect_answers": [
+                "New York",
+                "Texas",
+                "Florida"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "How many countries does Mexico border?",
+            "correct_answer": "3",
+            "incorrect_answers": [
+                "2",
+                "4",
+                "1"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "What is the capital of Indonesia?",
+            "correct_answer": "Jakarta",
+            "incorrect_answers": [
+                "Bandung",
+                "Medan",
+                "Palembang"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "What country is the second largest in the world by area?",
+            "correct_answer": "Canada",
+            "incorrect_answers": [
+                "Russia",
+                "China",
+                "United States of America"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "What is the capital of South Korea?",
+            "correct_answer": "Seoul",
+            "incorrect_answers": [
+                "Pyongyang",
+                "Taegu",
+                "Kitakyushu"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "Which of the following European languages is classified as a &quot;language isolate?&quot;",
+            "correct_answer": "Basque",
+            "incorrect_answers": [
+                "Galician",
+                "Maltese",
+                "Hungarian"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "Which Russian oblast forms a border with Poland?",
+            "correct_answer": "Kaliningrad",
+            "incorrect_answers": [
+                "Samara",
+                "Nizhny Novgorod",
+                "Omsk"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "All of the following are classified as Finno-Ugric languages EXCEPT:",
+            "correct_answer": "Samoyedic",
+            "incorrect_answers": [
+                "Hungarian",
+                "Finnish",
+                "Estonian"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "Which of the following languages does NOT use the Latin alphabet?",
+            "correct_answer": "Georgian",
+            "incorrect_answers": [
+                "Turkish",
+                "Swahili",
+                "Vietnamese"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "What is Canada&#039;s smallest province?",
+            "correct_answer": "Prince Edward Island",
+            "incorrect_answers": [
+                "New Brunswick",
+                "Nova Scotia",
+                "Yukon"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "What is the capital of Scotland?",
+            "correct_answer": "Edinburgh",
+            "incorrect_answers": [
+                "Glasgow",
+                "Dundee",
+                "London"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "What is the largest country in the world?",
+            "correct_answer": "Russia",
+            "incorrect_answers": [
+                "Canada",
+                "China",
+                "United States"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "What state is the largest state of the United States of America?",
+            "correct_answer": "Alaska",
+            "incorrect_answers": [
+                "California",
+                "Texas",
+                "Washington"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "If soccer is called football in England, what is American football called in England?",
+            "correct_answer": "American football",
+            "incorrect_answers": [
+                "Combball",
+                "Handball",
+                "Touchdown"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "Which of these is the name of the largest city in the US state Tennessee?",
+            "correct_answer": "Memphis",
+            "incorrect_answers": [
+                "Thebes",
+                "Alexandria",
+                "Luxor"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "What is the name of the peninsula containing Spain and Portugal?",
+            "correct_answer": "Iberian Peninsula",
+            "incorrect_answers": [
+                "European Peninsula",
+                "Peloponnesian Peninsula",
+                "Scandinavian Peninsula"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "What is the capital of Spain?",
+            "correct_answer": "Madrid",
+            "incorrect_answers": [
+                "Barcelona",
+                "Sevilla",
+                "Toledo"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "Which of the following former Yugoslavian states is landlocked?",
+            "correct_answer": "Serbia",
+            "incorrect_answers": [
+                "Bosnia and Herzegovina",
+                "Montenegro",
+                "Croatia"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "What is Laos?",
+            "correct_answer": "Country",
+            "incorrect_answers": [
+                "Region",
+                "River",
+                "City"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "Which of these is NOT an Australian state or territory?",
+            "correct_answer": "Alberta",
+            "incorrect_answers": [
+                "New South Wales",
+                "Victoria",
+                "Queensland"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "Which of these African countries list &quot;Spanish&quot; as an official language?",
+            "correct_answer": "Equatorial Guinea",
+            "incorrect_answers": [
+                "Guinea",
+                "Cameroon",
+                "Angola"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "Which city is the capital of the United States of America?",
+            "correct_answer": "Washington D.C",
+            "incorrect_answers": [
+                "Seattle",
+                "Albany",
+                "Los Angeles"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "What is the 15th letter of the Greek alphabet?",
+            "correct_answer": "Omicron (&Omicron;)",
+            "incorrect_answers": [
+                "Sigma (&Sigma;)",
+                "Pi (&Pi;)",
+                "Nu (&Nu;)"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "The Alps are a mountain range on which continent?",
+            "correct_answer": "Europe",
+            "incorrect_answers": [
+                "North America",
+                "Asia",
+                "Africa"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "Which small country is located between the borders of France and Spain?",
+            "correct_answer": "Andorra",
+            "incorrect_answers": [
+                "San Marino",
+                "Vatican City",
+                "Lichtenstein"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "What is the Capital of the United States?",
+            "correct_answer": "Washington, D.C.",
+            "incorrect_answers": [
+                "Los Angelas, CA",
+                "New York City, NY",
+                "Houston, TX"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "Harvard University is located in which city?",
+            "correct_answer": "Cambridge",
+            "incorrect_answers": [
+                "Providence",
+                "New York",
+                "Washington D.C."
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "The derisive acronym &quot;PIIGS&quot; refers to which of the following European countries and their economic statuses?",
+            "correct_answer": "Portugal, Ireland, Italy, Greece, Spain",
+            "incorrect_answers": [
+                "Poland, Iceland, Italy, Greece, Serbia",
+                "Poland, Iceland, Italy, Greenland, Spain",
+                "Portugal, Iceland, Ireland, Greece, Serbia"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "Which country is the home of the largest Japanese population outside of Japan?",
+            "correct_answer": "Brazil",
+            "incorrect_answers": [
+                "China",
+                "Russia",
+                "The United States"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "What is the largest country in the world ?",
+            "correct_answer": "Russian Federation",
+            "incorrect_answers": [
+                "China",
+                "Canada",
+                "Brazil"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "What is the only state in the United States that does not have a flag in a shape with 4 edges?",
+            "correct_answer": "Ohio",
+            "incorrect_answers": [
+                "Florida",
+                "Idaho",
+                "New Mexico"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geography",
+            "question": "What country has a horizontal bicolor red and white flag?",
+            "correct_answer": "Monaco",
+            "incorrect_answers": [
+                "Bahrain",
+                "Malta",
+                "Liechenstein"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "The formerly East-Prussian city of K&ouml;nigsberg is known as which Russian City today?",
+            "correct_answer": "Kaliningrad",
+            "incorrect_answers": [
+                "Kazan",
+                "Kursk",
+                "Krasnodar"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "Which of the following countries does NOT recognize Armenia as an independent country?",
+            "correct_answer": "Pakistan",
+            "incorrect_answers": [
+                "Iran",
+                "Turkey",
+                "Azerbaijan"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "Which of these countries is the smallest by population?",
+            "correct_answer": "Norway",
+            "incorrect_answers": [
+                "Slovakia",
+                "Finland",
+                "Hong Kong"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "What is the longest river in Europe?",
+            "correct_answer": "Volga",
+            "incorrect_answers": [
+                "Danube",
+                "Rhine",
+                "Thames"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "How many time zones are in Russia?",
+            "correct_answer": "11",
+            "incorrect_answers": [
+                "8",
+                "5",
+                "2"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "What was the African nation of Zimbabwe formerly known as?",
+            "correct_answer": "Rhodesia",
+            "incorrect_answers": [
+                "Zambia",
+                "Mozambique",
+                " Bulawayo"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "How many rivers are in Saudi Arabia?",
+            "correct_answer": "0",
+            "incorrect_answers": [
+                "1",
+                "2",
+                "3"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "Which of these countries is not a United Nations member state?",
+            "correct_answer": "Niue",
+            "incorrect_answers": [
+                "Tuvalu",
+                "South Sudan",
+                "Montenegro"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "What is the fifth largest country by area?",
+            "correct_answer": "Brazil",
+            "incorrect_answers": [
+                "United States",
+                "Australia",
+                "India"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "The Pyrenees mountains are located on the border of which two countries?",
+            "correct_answer": "France and Spain",
+            "incorrect_answers": [
+                "Italy and Switzerland",
+                "Norway and Sweden",
+                "Russia and Ukraine"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "How many countries does Spain have a land border with?",
+            "correct_answer": "5",
+            "incorrect_answers": [
+                "2",
+                "3",
+                "4"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "The Japanese district Akihabara is also known by what nickname?",
+            "correct_answer": "Electric Town",
+            "incorrect_answers": [
+                "Moon Walk River",
+                "Otaku Central ",
+                "Big Eyes"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "What is the capital city of New Zealand?",
+            "correct_answer": "Wellington",
+            "incorrect_answers": [
+                "Auckland",
+                "Christchurch",
+                "Melbourne"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "Which European city has the highest mileage of canals in the world?",
+            "correct_answer": "Birmingham",
+            "incorrect_answers": [
+                "Venice",
+                "Amsterdam",
+                "Berlin"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "Montreal is in which Canadian province?",
+            "correct_answer": "Quebec",
+            "incorrect_answers": [
+                "Ontario",
+                "Nova Scotia",
+                "Alberta"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "Colchester Overpass, otherwise known as &quot;Bunny Man Bridge&quot;, is located where?",
+            "correct_answer": "Fairfax County, Virginia",
+            "incorrect_answers": [
+                "Medford, Oregon",
+                "Braxton County, Virgina",
+                "Lemon Grove, California"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "What&#039;s the first National Park designated in the United States?",
+            "correct_answer": "Yellowstone",
+            "incorrect_answers": [
+                "Sequoia ",
+                "Yosemite",
+                "Rocky Mountain"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "What is the region conjoining Pakistan, India, and China with unknown leadership called?",
+            "correct_answer": "Kashmir",
+            "incorrect_answers": [
+                "Andorra",
+                "Gibraltar",
+                "Quin"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "What mountain range lines the border between Spain and France?",
+            "correct_answer": "Pyrenees",
+            "incorrect_answers": [
+                "Alps",
+                "Carpathians",
+                "Urals"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "Where is the &quot;Sonoran Desert&quot; located?",
+            "correct_answer": "North America",
+            "incorrect_answers": [
+                "South America",
+                "Asia",
+                "Africa"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "Bridgetown is the capital of which island country in the Carribean?",
+            "correct_answer": "Barbados",
+            "incorrect_answers": [
+                "Cuba",
+                "Jamaica&lrm;",
+                "Dominica"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "On which continent is the country of Angola located?",
+            "correct_answer": "Africa",
+            "incorrect_answers": [
+                "South America",
+                "Europe",
+                "Asia"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "What is the capital of Belarus?",
+            "correct_answer": "Minsk",
+            "incorrect_answers": [
+                "Warsaw",
+                "Kiev",
+                "Vilnius"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "How tall is One World Trade Center in New York City?",
+            "correct_answer": "1,776 ft",
+            "incorrect_answers": [
+                "1,888 ft",
+                "1,225 ft",
+                "1,960 ft"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "Broome is a town in which state of Australia?",
+            "correct_answer": "Western Australia",
+            "incorrect_answers": [
+                "Northern Territory",
+                "South Australia",
+                "Tasmania"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "What event led to Liechenstein adding a crown to its flag?",
+            "correct_answer": "The 1936 Olympics",
+            "incorrect_answers": [
+                "Coronation of Prince Johann I Joseph in 1805",
+                "Charles VI&#039;s decree in 1719",
+                "Signing of the 1862 Constitution of Liechtenstein"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "Which of these countries is NOT located in Africa?",
+            "correct_answer": "Suriname",
+            "incorrect_answers": [
+                "Burkina Faso",
+                "Mozambique",
+                "Algeria"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "Where is Hadrian&#039;s Wall located?",
+            "correct_answer": "Carlisle, England",
+            "incorrect_answers": [
+                "Rome, Italy",
+                "Alexandria, Egypt",
+                "Dublin, Ireland"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "Which is the largest city in Morocco?",
+            "correct_answer": "Casablanca",
+            "incorrect_answers": [
+                "Rabat",
+                "Fes",
+                "Sale"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "Which of the following is NOT a capital city?",
+            "correct_answer": "Sydney",
+            "incorrect_answers": [
+                "Cairo",
+                "Moscow",
+                "Beijing"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "How many countries are larger than Australia?",
+            "correct_answer": "5",
+            "incorrect_answers": [
+                "4",
+                "3",
+                "6"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "Which of these country&#039;s capitals starts with the letter B?",
+            "correct_answer": "Lebanon",
+            "incorrect_answers": [
+                "Jordan",
+                "Kuwait",
+                "Qatar"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "What is the busiest port in Europe?",
+            "correct_answer": "Port of Rotterdam",
+            "incorrect_answers": [
+                "Port of Antwerp",
+                "Port of Hamburg",
+                "Port of Amsterdam"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "How many independent countries are there within the continent of South America?",
+            "correct_answer": "12",
+            "incorrect_answers": [
+                "8",
+                "9",
+                "10"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "Which of the following countries banned the use of personal genetic ancestry tests?",
+            "correct_answer": "Germany",
+            "incorrect_answers": [
+                "Austria",
+                "Canada",
+                "Sweden"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "What is the highest mountain in the world?",
+            "correct_answer": "Mt. Everest",
+            "incorrect_answers": [
+                "Mount Godwin Austen",
+                "Kangchenjunga",
+                "Annapurna"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "The following Spanish provinces are located in the northern area of Spain except:",
+            "correct_answer": "Murcia",
+            "incorrect_answers": [
+                "Asturias",
+                "Navarre",
+                "Le&oacute;n"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "Gibraltar, located just south of the Iberian peninsula, is a territory of which West Europe country?",
+            "correct_answer": "United Kingdom",
+            "incorrect_answers": [
+                "Spain",
+                "Portugal",
+                "France"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "What is the capital city of Slovenia?",
+            "correct_answer": "Ljubljana",
+            "incorrect_answers": [
+                "Maribor",
+                "Velenje",
+                "Trbovlje"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "Which of the following language families is the most controversial amongst modern linguists?",
+            "correct_answer": "Altaic",
+            "incorrect_answers": [
+                "Sino-Tibetan",
+                "Dravidian",
+                "Indo-European"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "What is the capital of Lithuania?",
+            "correct_answer": "Vilnius",
+            "incorrect_answers": [
+                "Tallinn",
+                "Helsinki",
+                "Riga"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "The towns of Brugelette, Arlon and Ath are located in which country?",
+            "correct_answer": "Belgium",
+            "incorrect_answers": [
+                "Andorra",
+                "France",
+                "Luxembourg"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "How many counties in the Republic of Ireland.",
+            "correct_answer": "26",
+            "incorrect_answers": [
+                "32",
+                "28",
+                "30"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "What is the capital of the State of Washington, United States?",
+            "correct_answer": "Olympia",
+            "incorrect_answers": [
+                "Washington D.C.",
+                "Seattle",
+                "Yukon"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "All of the following countries have official claims to territory in Antartica EXCEPT:",
+            "correct_answer": "United States",
+            "incorrect_answers": [
+                "Australia",
+                "Chile",
+                "Norway"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "How many countries share a land border with Luxembourg?",
+            "correct_answer": "3",
+            "incorrect_answers": [
+                "4",
+                "2",
+                "5"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "What is the name of the only remaining Grand Duchy in the world ?",
+            "correct_answer": "Luxembourg",
+            "incorrect_answers": [
+                "Montenegro",
+                "Liechtenstein",
+                "Andorra"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "How many countries are inside the United Kingdom?",
+            "correct_answer": "Four",
+            "incorrect_answers": [
+                "Two",
+                "Three",
+                "One"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "Which is the world&#039;s longest river?",
+            "correct_answer": "Nile",
+            "incorrect_answers": [
+                "Missouri",
+                "Amazon",
+                "Yangtze"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "What is the capital of British Columbia, Canada?",
+            "correct_answer": "Victoria",
+            "incorrect_answers": [
+                "Vancouver",
+                "Hope",
+                "Kelowna"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "Which famous world leader is famed for the saying, &quot;Let them eat cake&quot;, yet is rumored that he\/she never said it at all?",
+            "correct_answer": "Marie Antoinette",
+            "incorrect_answers": [
+                "Czar Nicholas II",
+                "Elizabeth I",
+                "Henry VIII"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "Who rode on horseback to warn the Minutemen that the British were coming during the U.S. Revolutionary War?",
+            "correct_answer": "Paul Revere",
+            "incorrect_answers": [
+                "Thomas Paine",
+                "Henry Longfellow",
+                "Nathan Hale"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "Which modern day country is the region that was known as Phrygia in ancient times?",
+            "correct_answer": "Turkey",
+            "incorrect_answers": [
+                "Syria",
+                "Greece",
+                "Egypt"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "Who discovered Penicillin?",
+            "correct_answer": "Alexander Flemming",
+            "incorrect_answers": [
+                "Marie Curie",
+                "Alfred Nobel",
+                "Louis Pasteur"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "In which year did the Invasion of Kuwait by Iraq occur?",
+            "correct_answer": "1990",
+            "incorrect_answers": [
+                "1992",
+                "1988",
+                "1986"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "King Henry VIII was the second monarch of which European royal house?",
+            "correct_answer": "Tudor",
+            "incorrect_answers": [
+                "York",
+                "Stuart",
+                "Lancaster"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "Which German field marshal was known as the `Desert Fox`?",
+            "correct_answer": "Erwin Rommel",
+            "incorrect_answers": [
+                "Ernst Busch",
+                "Wolfram Freiherr von Richthofen",
+                "Wilhelm List"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "In 1939, Britain and France declared war on Germany after it invaded which country?",
+            "correct_answer": "Poland",
+            "incorrect_answers": [
+                "Czechoslovakia",
+                "Austria",
+                "Hungary"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "Who was among those killed in the 2010 Smolensk, Russia plane crash tragedy?",
+            "correct_answer": "The Polish President",
+            "incorrect_answers": [
+                "Pope John Paul II",
+                "Bang-Ding Ow",
+                "Albert Putin"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "What was the first sport to have been played on the moon?",
+            "correct_answer": "Golf",
+            "incorrect_answers": [
+                "Football",
+                "Tennis",
+                "Soccer"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "Who was the first president of the United States?",
+            "correct_answer": "George Washington",
+            "incorrect_answers": [
+                "James Madison",
+                "Thomas Jefferson",
+                "James K. Polk"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "How old was Adolf Hitler when he died?",
+            "correct_answer": "56",
+            "incorrect_answers": [
+                "43",
+                "65",
+                "47"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "Who was the first prime minister of Canada?",
+            "correct_answer": "John Macdonald",
+            "incorrect_answers": [
+                "John Abbott",
+                "Alexander Mackenzie",
+                "Robert Borden"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "What does the United States of America celebrate during the 4th of July?",
+            "correct_answer": "The signing of the Declaration of Independence",
+            "incorrect_answers": [
+                "The anniversary of the Battle of Gettysburg",
+                "The crossing of the Delaware River",
+                "The ratification of the Constitution"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "The idea of Socialism was articulated and advanced by whom?",
+            "correct_answer": "Karl Marx",
+            "incorrect_answers": [
+                "Vladimir Lenin",
+                "Joseph Stalin",
+                "Vladimir Putin"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "Who led the Communist Revolution of Russia?",
+            "correct_answer": "Vladimir Lenin",
+            "incorrect_answers": [
+                "Joseph Stalin",
+                "Vladimir Putin",
+                "Mikhail Gorbachev"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "When was Google founded?",
+            "correct_answer": "September 4, 1998",
+            "incorrect_answers": [
+                "October 9, 1997",
+                "December 12, 1989",
+                "Feburary 7th, 2000"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "Which modern country is known as &quot;The Graveyard of Empires&quot;?",
+            "correct_answer": "Afghanistan",
+            "incorrect_answers": [
+                "China",
+                "Iraq",
+                "Russia"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "These two countries held a commonwealth from the 16th to 18th century.",
+            "correct_answer": "Poland and Lithuania",
+            "incorrect_answers": [
+                "Hutu and Rwanda",
+                "North Korea and South Korea",
+                "Bangladesh and Bhutan"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "What was Manfred von Richthofen&#039;s nickname?",
+            "correct_answer": "The Red Baron",
+            "incorrect_answers": [
+                "The High Flying Ace",
+                "The Blue Serpent ",
+                "The Germany Gunner"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "Abolitionist John Brown raided the arsenal in which Virginia Town?",
+            "correct_answer": "Harper&#039;s Ferry",
+            "incorrect_answers": [
+                "Richmond",
+                "Harrisonburg",
+                "Martinsburg"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "The &quot;Trail of Tears&quot; was a result of which United States President&#039;s Indian Removal Policy?",
+            "correct_answer": "Andrew Jackson",
+            "incorrect_answers": [
+                "Harry S. Truman",
+                "Martin Van Buren",
+                "John Quincy Adams"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "Which famous military commander marched an army, which included war elephants, over the Alps during the Second Punic War?",
+            "correct_answer": "Hannibal",
+            "incorrect_answers": [
+                "Garmanicus",
+                "Alexander the Great",
+                "Tiberius"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "What is the historical name of Sri Lanka?",
+            "correct_answer": "Ceylon",
+            "incorrect_answers": [
+                "Myanmar",
+                "Colombo",
+                "Badulla"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "In 1453, which important city fell?",
+            "correct_answer": "Constantinople",
+            "incorrect_answers": [
+                "Rome",
+                "Hamburg",
+                "Athens"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "Which of these countries remained neutral during World War II?",
+            "correct_answer": "Switzerland",
+            "incorrect_answers": [
+                "United Kingdom",
+                "France",
+                "Italy"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "Which of the following African countries was most successful in resisting colonization?",
+            "correct_answer": "Ethiopia",
+            "incorrect_answers": [
+                "C&ocirc;te d&rsquo;Ivoire",
+                "Congo",
+                "Namibia"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "Which of the following ancient peoples was NOT classified as Hellenic (Greek)?",
+            "correct_answer": "Illyrians",
+            "incorrect_answers": [
+                "Dorians",
+                "Achaeans",
+                "Ionians"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "How long did World War II last?",
+            "correct_answer": "6 years",
+            "incorrect_answers": [
+                "4 years",
+                "5 years",
+                "7 years"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "When did the Battle of the Somme begin?",
+            "correct_answer": "July 1st, 1916",
+            "incorrect_answers": [
+                "August 1st, 1916",
+                "July 2nd, 1916",
+                "June 30th, 1916"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "Which one of these tanks was designed and operated by the United Kingdom?",
+            "correct_answer": "Tog II",
+            "incorrect_answers": [
+                "M4 Sherman",
+                "Tiger H1",
+                "T-34"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "Which of the following countries was not an axis power during World War II?",
+            "correct_answer": " Soviet Union",
+            "incorrect_answers": [
+                "Italy",
+                "Germany",
+                "Japan"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "Which one of these was not a beach landing site in the Invasion of Normandy?",
+            "correct_answer": "Silver",
+            "incorrect_answers": [
+                "Gold",
+                "Juno",
+                "Sword"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "In 1720, England was in massive debt and became involved in the South Sea Bubble. Who was the main mastermind behind it?",
+            "correct_answer": "John Blunt",
+            "incorrect_answers": [
+                "Daniel Defoe",
+                "Robert Harley",
+                "John Churchill"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "During WWII, in 1945, the United States dropped atomic bombs on the two Japanese cities of Hiroshima and what other city?",
+            "correct_answer": "Nagasaki",
+            "incorrect_answers": [
+                "Kawasaki",
+                "Tokyo",
+                "Kagoshima"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "Who was the Prime Minister of Japan when Japan declared war on the US?",
+            "correct_answer": "Hideki Tojo",
+            "incorrect_answers": [
+                "Michinomiya Hirohito",
+                "Isoroku Yamamoto",
+                "Fumimaro Konoe"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "What year did World War I begin?",
+            "correct_answer": "1914",
+            "incorrect_answers": [
+                "1905",
+                "1919",
+                "1925"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "How was Socrates executed?",
+            "correct_answer": "Poison",
+            "incorrect_answers": [
+                "Decapitation",
+                "Firing squad",
+                "Crucifixion "
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "In what year did the Wall Street Crash take place?",
+            "correct_answer": "1929",
+            "incorrect_answers": [
+                "1932",
+                "1930",
+                "1925"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "The Ottoman Empire was dissolved after their loss in which war?",
+            "correct_answer": "World War I",
+            "incorrect_answers": [
+                "Crimean War",
+                "Serbian Revolution",
+                "Second Balkan War"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "The original Roman alphabet lacked the following letters EXCEPT:",
+            "correct_answer": "X",
+            "incorrect_answers": [
+                "W",
+                "U",
+                "J"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "In what year did the Great Northern War, between Russia and Sweden, end?",
+            "correct_answer": "1721",
+            "incorrect_answers": [
+                "1726",
+                "1727",
+                "1724"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "What was the name commonly given to the ancient trade routes that connected the East and West of Eurasia?",
+            "correct_answer": "Silk Road",
+            "incorrect_answers": [
+                "Spice Road",
+                "Clay Road",
+                "Salt Road"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "What country joined the EU in 2013?",
+            "correct_answer": "Croatia",
+            "incorrect_answers": [
+                "Bulgaria",
+                "Slovenia",
+                "Turkey"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "Which of the following was Brazil was a former colony under?",
+            "correct_answer": "Portugal",
+            "incorrect_answers": [
+                "Spain",
+                "The Netherlands",
+                "France"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "Which country was Josef Stalin born in?",
+            "correct_answer": "Georgia",
+            "incorrect_answers": [
+                "Russia",
+                "Germany",
+                "Poland"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "On what street did the 1666 Great Fire of London start?",
+            "correct_answer": "Pudding Lane",
+            "incorrect_answers": [
+                "Baker Street",
+                "Houses of Parliament",
+                "St Paul&#039;s Cathedral"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "In what year was the M1911 pistol designed?",
+            "correct_answer": "1911",
+            "incorrect_answers": [
+                "1907",
+                "1899",
+                "1917"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "How many manned moon landings have there been?",
+            "correct_answer": "6",
+            "incorrect_answers": [
+                "1",
+                "3",
+                "7"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "History",
+            "question": "The collapse of the Soviet Union took place in which year?",
+            "correct_answer": "1991",
+            "incorrect_answers": [
+                "1992",
+                "1891",
+                "1990"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "When was the Grand Patriotic War in the USSR concluded?",
+            "correct_answer": "May 9th, 1945",
+            "incorrect_answers": [
+                "September 2nd, 1945",
+                "August 9th, 1945",
+                "December 11th, 1945"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "Who is attributed credit for recording the epic poem The Odyssey?",
+            "correct_answer": "Homer",
+            "incorrect_answers": [
+                "Aristotle",
+                "Odysseus",
+                "Socrates"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "Who was the last Roman emperor in the Year of Four Emperors (69 AD)?",
+            "correct_answer": "Vespasian",
+            "incorrect_answers": [
+                "Vitellius",
+                "Otho",
+                "Galba"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "In which year was Constantinople conquered by the Turks?",
+            "correct_answer": "1453",
+            "incorrect_answers": [
+                "1435",
+                "1454",
+                "1440"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "The Spitfire L.F. Mk IX had what engine?",
+            "correct_answer": "Merlin 66",
+            "incorrect_answers": [
+                "Griffon 65",
+                "Merlin 50",
+                "Merlin X"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "How many times was Albert Einstein married in his lifetime?",
+            "correct_answer": "Twice",
+            "incorrect_answers": [
+                "Five",
+                "Thrice",
+                "Once"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "The Herero genocide was perpetrated in Africa by which of the following colonial nations?",
+            "correct_answer": "Germany",
+            "incorrect_answers": [
+                "Britain",
+                "Belgium",
+                "France"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "When did O, Canada officially become the national anthem?",
+            "correct_answer": "1980",
+            "incorrect_answers": [
+                "1950",
+                "1920",
+                "1880"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "Which Apollo mission was the last one in NASA&#039;s Apollo program?",
+            "correct_answer": "Apollo 17",
+            "incorrect_answers": [
+                "Apollo 13",
+                "Apollo 11",
+                "Apollo 15"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "The Korean War started in what year?",
+            "correct_answer": "1950",
+            "incorrect_answers": [
+                "1945",
+                "1960",
+                "1912"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "Which of the following ancient Near Eastern peoples still exists as a modern ethnic group?",
+            "correct_answer": "Assyrians",
+            "incorrect_answers": [
+                "Babylonians",
+                "Hittites",
+                "Elamites"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "In 1961, an American B-52 aircraft crashed and nearly detonated two 4mt nuclear bombs over which US city?",
+            "correct_answer": "Goldsboro, North Carolina",
+            "incorrect_answers": [
+                "Hicksville, New York",
+                "Jacksonville, Florida",
+                "Conway, Arkansas"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "In what dialogue did Socrates defend himself to the court of Athens? ",
+            "correct_answer": "The Apology",
+            "incorrect_answers": [
+                "The Euthyphro",
+                "The Laws",
+                "The Republic"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "What year did Australia become a federation?",
+            "correct_answer": "1901",
+            "incorrect_answers": [
+                "1910",
+                "1899",
+                "1911"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "Which country was an allied power in World War II?",
+            "correct_answer": "Soviet Union",
+            "incorrect_answers": [
+                "Italy",
+                "Germany",
+                "Japan"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "The seed drill was invented by which British inventor?",
+            "correct_answer": "Jethro Tull",
+            "incorrect_answers": [
+                "Charles Babbage",
+                "Isaac Newton",
+                "J.J Thomson"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "What was the code name for the German invasion of the Soviet Union in WW2?",
+            "correct_answer": "Operation Barbarossa",
+            "incorrect_answers": [
+                "Operation Kaiserschlact",
+                "Operation Unthinkable",
+                "Operation Molotov"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "When was the People&#039;s Republic of China founded?",
+            "correct_answer": "October 1, 1949",
+            "incorrect_answers": [
+                "April 3, 1947",
+                "May 7, 1945",
+                "December 6, 1950"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "In what year was the last natural case of smallpox documented?",
+            "correct_answer": "1977",
+            "incorrect_answers": [
+                "1982",
+                "1980",
+                "1990"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "What is the name of the ship which was only a few miles away from the RMS Titanic when it struck an iceberg on April 14, 1912?",
+            "correct_answer": "Californian",
+            "incorrect_answers": [
+                "Carpathia",
+                "Cristol",
+                "Commerce"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "What year did the Battle of Agincourt take place?",
+            "correct_answer": "1415",
+            "incorrect_answers": [
+                "1463",
+                "1401",
+                "1422"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "Which Nation DID NOT have a Colony in Modern-day America?",
+            "correct_answer": "Portugal",
+            "incorrect_answers": [
+                "Spain",
+                "Sweden",
+                "Netherlands"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "What was the name of one of the surviving palaces of Henry VIII located near Richmond, London?",
+            "correct_answer": "Hampton Court",
+            "incorrect_answers": [
+                "St James&#039;s Palace",
+                "Buckingham Palace",
+                "Coughton Court"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "In 1845, a series of wars named after which indigenous people began in New Zealand?",
+            "correct_answer": "M\u0101ori",
+            "incorrect_answers": [
+                "Papuans",
+                "Aborigines",
+                "Polynesians"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "In what year was the famous 45 foot tall Hollywood sign first erected?",
+            "correct_answer": "1923",
+            "incorrect_answers": [
+                "1903",
+                "1913",
+                "1933"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "Joseph Smith was the founder of what religion?",
+            "correct_answer": "Mormonism",
+            "incorrect_answers": [
+                "Buddhism",
+                "Christianity",
+                "Hinduism"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "The Battle of the Somme in World War I took place in which country?",
+            "correct_answer": "France",
+            "incorrect_answers": [
+                "Germany",
+                "Italy",
+                "Austria"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "The United States Army Air Corps became the United States Air Force on what date?",
+            "correct_answer": "September 18, 1947",
+            "incorrect_answers": [
+                "December 14, 1946",
+                "October 27, 1945",
+                "November 08, 1944"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "When did the Crisis of the Third Century begin?",
+            "correct_answer": "235 AD",
+            "incorrect_answers": [
+                "235 BC",
+                "242 AD",
+                "210 AD"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "Who was the first Chancellor of a united Germany in 1871? ",
+            "correct_answer": "Otto Von Bismark",
+            "incorrect_answers": [
+                "Kaiser Wilhelm ",
+                "Fredrick the 2nd",
+                "Robert Koch"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "When Christopher Columbus sailed to America, what was the first region he arrived in?",
+            "correct_answer": "The Bahamas Archipelago",
+            "incorrect_answers": [
+                "Florida",
+                "Isthmus of Panama",
+                "Nicaragua"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "Which WWII tank ace is credited with having destroyed the most tanks?",
+            "correct_answer": "Kurt Knispel",
+            "incorrect_answers": [
+                "Michael Wittmann",
+                "Walter Kniep",
+                "Otto Carius"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "On which day did construction start on &quot;The Pentagon&quot;, the headquarters for the United States Department of Defense?",
+            "correct_answer": "September 11, 1941",
+            "incorrect_answers": [
+                "June 15, 1947",
+                "January 15, 1943",
+                "September 2, 1962"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "In relation to the British Occupation in Ireland, what does the IRA stand for.",
+            "correct_answer": "Irish Republican Army",
+            "incorrect_answers": [
+                "Irish Rebel Alliance",
+                "Irish Reformation Army",
+                "Irish-Royal Alliance"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "In World War I, what was the name of the alliance of Germany, Austria-Hungary, the Ottoman Empire, and Bulgaria?",
+            "correct_answer": "The Central Powers",
+            "incorrect_answers": [
+                "The Axis Powers",
+                "The Federation of Empires",
+                "Authoritarian Alliance"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "Which infamous European traitor was known as &quot;the last person to enter Parliament with honest intentions&quot;?",
+            "correct_answer": "Guy Fawkes",
+            "incorrect_answers": [
+                "Robert Catesby",
+                "Francis Tresham",
+                "Everard Digby"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "Who was the first president born in the independent United States?",
+            "correct_answer": "Martin Van Buren",
+            "incorrect_answers": [
+                "John Adams",
+                "George Washington",
+                "James Monroe "
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "In what year did the First World War end?",
+            "correct_answer": "1918",
+            "incorrect_answers": [
+                "1914",
+                "1916",
+                "1912"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "America&#039;s Strategic Defense System during the Cold War was nicknamed after this famous movie.",
+            "correct_answer": "Star Wars",
+            "incorrect_answers": [
+                "Jaws",
+                "Blade Runner",
+                "Alien"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "What event marked the start of World War II?",
+            "correct_answer": "Invasion of Poland (1939)",
+            "incorrect_answers": [
+                "Invasion of Russia (1942)",
+                "Battle of Britain (1940)",
+                "Invasion of Normandy (1944)"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "What was the total length of the Titanic?",
+            "correct_answer": "882 ft | 268.8 m",
+            "incorrect_answers": [
+                "759 ft | 231.3 m",
+                "1042 ft | 317.6 m",
+                "825 ft | 251.5 m"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "What is the oldest US state?",
+            "correct_answer": "Delaware",
+            "incorrect_answers": [
+                "Rhode Island",
+                "Maine",
+                "Virginia"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "Which Louis was known as &#039;The Sun King of France&#039;?",
+            "correct_answer": "Louis XIV",
+            "incorrect_answers": [
+                "Louis XIII",
+                "Louis XV",
+                "Louis XVI"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "Which of the following countries was the first to send an object into space?",
+            "correct_answer": "Germany",
+            "incorrect_answers": [
+                "USA",
+                "Russia",
+                "China"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "What was the unofficial name for Germany between 1919 and 1933?",
+            "correct_answer": "Weimar Republic",
+            "incorrect_answers": [
+                "German Democratic Republic",
+                "Federal Republic of Germany",
+                "Oesterreich "
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "All of the following are names of the Seven Warring States EXCEPT:",
+            "correct_answer": "Zhai (\u7fdf)",
+            "incorrect_answers": [
+                "Zhao (\u8d99)",
+                "Qin (\u79e6)",
+                "Qi (\u9f4a)"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "Which of the following battles is often considered as marking the beginning of the fall of the Western Roman Empire?",
+            "correct_answer": "Battle of Adrianople",
+            "incorrect_answers": [
+                "Battle of Thessalonica",
+                "Battle of Pollentia",
+                "Battle of Constantinople"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "Which U.S. President was famously &#039;attacked&#039; by a swimming rabbit?",
+            "correct_answer": "Jimmy Carter",
+            "incorrect_answers": [
+                "Ronald Reagan",
+                "Lydon B. Johnson",
+                "Gerald Ford"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "The Thirty Years War ended with which treaty?",
+            "correct_answer": "Peace of Westphalia",
+            "incorrect_answers": [
+                "Treaty of Versailles",
+                "Treaty of Paris",
+                "Peace of Prague"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "Which country had an &quot;Orange Revolution&quot; between 2004 and 2005?",
+            "correct_answer": "Ukraine",
+            "incorrect_answers": [
+                "Belarus",
+                "Latvia",
+                "Lithuania"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "From 1940 to 1942, what was the capital-in-exile of Free France ?",
+            "correct_answer": "Brazzaville",
+            "incorrect_answers": [
+                "Algiers",
+                "Paris",
+                "Tunis"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "What is the name of the Boeing B-29 that dropped the &#039;Little Boy&#039; atomic bomb on Hiroshima?",
+            "correct_answer": "Enola Gay",
+            "incorrect_answers": [
+                "Necessary Evil",
+                "The Great Artiste",
+                "Full House"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "What was the aim of the &quot;Umbrella Revolution&quot; in Hong Kong in 2014?",
+            "correct_answer": "Genuine universal suffrage",
+            "incorrect_answers": [
+                "Gaining Independence",
+                "Go back under British Rule",
+                "Lower taxes"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "When did Lithuania declare independence from the Soviet Union?",
+            "correct_answer": "March 11th, 1990",
+            "incorrect_answers": [
+                "December 25th, 1991",
+                "December 5th, 1991",
+                "April 20th, 1989"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "What was the name of the German offensive operation in October 1941 to take Moscow before winter?",
+            "correct_answer": "Operation Typhoon",
+            "incorrect_answers": [
+                "Operation Sunflower",
+                "Operation Barbarossa",
+                "Case Blue"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "What was the last colony the UK ceded marking the end of the British Empire?",
+            "correct_answer": "Hong Kong",
+            "incorrect_answers": [
+                "India",
+                "Australia",
+                "Ireland"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "List the following Iranic empires in chronological order:",
+            "correct_answer": "Median, Achaemenid, Parthian, Sassanid",
+            "incorrect_answers": [
+                "Median, Achaemenid, Sassanid, Parthian",
+                "Achaemenid, Median, Parthian, Sassanid",
+                "Achaemenid, Median, Sassanid, Parthian"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "When did Spanish Peninsular War start?",
+            "correct_answer": "1808",
+            "incorrect_answers": [
+                "1806",
+                "1810",
+                "1809"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "During the Wars of the Roses (1455 - 1487) which Englishman was dubbed &quot;the Kingmaker&quot;?",
+            "correct_answer": "Richard Neville",
+            "incorrect_answers": [
+                "Richard III",
+                "Henry V",
+                "Thomas Warwick"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "During the Roman Triumvirate of 42 BCE, what region of the Roman Republic was given to Lepidus?",
+            "correct_answer": "Hispania ",
+            "incorrect_answers": [
+                "Italia",
+                "Gallia",
+                "Asia"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "The son of which pope supposedly held a lecherous f&ecirc;te involving 50 courtesans in the papal palace?",
+            "correct_answer": "Alexander VI",
+            "incorrect_answers": [
+                "Innocent V",
+                "Urban II",
+                "Pius III"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "The Battle of Hastings was fought in which year?",
+            "correct_answer": "1066",
+            "incorrect_answers": [
+                "911",
+                "1204",
+                "1420"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "The ancient city of Chich&eacute;n Itz&aacute; was built by which civilization?",
+            "correct_answer": "Mayans",
+            "incorrect_answers": [
+                "Aztecs",
+                "Incas",
+                "Toltecs"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "Which of these positions did the astronomer and physicist Isaac Newton not hold?",
+            "correct_answer": "Surveyor to the City of London",
+            "incorrect_answers": [
+                "Professor of Mathematics",
+                "Warden of the Royal Mint",
+                "Member of Parliament"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "Bohdan Khmelnytsky was which of the following?",
+            "correct_answer": "Leader of the Ukrainian Cossacks",
+            "incorrect_answers": [
+                "General Secretary of the Communist Party of the USSR",
+                "Prince of Wallachia",
+                "Grand Prince of Novgorod"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "Who was the President of the United States during the signing of the Gadsden Purchase?",
+            "correct_answer": "Franklin Pierce",
+            "incorrect_answers": [
+                "Andrew Johnson",
+                "Abraham Lincoln",
+                "James Polk"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "Who invented the &quot;Flying Shuttle&quot; in 1738; one of the key developments in the industrialization of weaving?",
+            "correct_answer": "John Kay",
+            "incorrect_answers": [
+                "James Hargreaves",
+                "Richard Arkwright",
+                "John Deere"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "On which day did ARPANET suffer a 4 hour long network crash?",
+            "correct_answer": "October 27, 1980",
+            "incorrect_answers": [
+                "November 21, 1969",
+                "October 29, 1969",
+                "December 9, 1991"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "The Bohemian Revolt (1618-1620) started after Protestants in Prague did what to their Catholic Lords Regents?",
+            "correct_answer": "Threw them out of a window",
+            "incorrect_answers": [
+                "Insulted their mothers",
+                "Locked them in stockades",
+                "Hung them."
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "The ontological argument for the proof of God&#039;s existence is first attributed to whom?",
+            "correct_answer": "Anselm of Canterbury",
+            "incorrect_answers": [
+                "Ren&eacute; Descartes",
+                "Immanuel Kant",
+                "Aristotle"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "How long did the Warsaw Uprising during World War II last?",
+            "correct_answer": "63 Days",
+            "incorrect_answers": [
+                "20 Days",
+                "55 Days",
+                "224 Days"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "What year was Canada founded in?",
+            "correct_answer": "1867",
+            "incorrect_answers": [
+                "1798",
+                "1859",
+                "1668"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "When did Canada leave the confederation to become their own nation?",
+            "correct_answer": "July 1st, 1867",
+            "incorrect_answers": [
+                "July 1st, 1763",
+                "July 1st, 1832",
+                "July 1st, 1902"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "How many sonatas did Ludwig van Beethoven write?",
+            "correct_answer": "32",
+            "incorrect_answers": [
+                "50",
+                "31",
+                "21"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "In addition to his career as an astrologer and &quot;prophet&quot;, Nostradamus published a 1555 treatise that included a section on what?",
+            "correct_answer": "Making jams and jellies",
+            "incorrect_answers": [
+                "Teaching parrots to talk",
+                "Cheating at card games",
+                "Digging graves"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "During World War I, which nation&#039;s monarchs were blood related?",
+            "correct_answer": "England, Germany, Russia",
+            "incorrect_answers": [
+                "France, Russia, Germany",
+                "Serbia, Russia, Croatia",
+                "Germany, Spain, Austria"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "The main objective of the German operation &quot;Case Blue&quot; during World War II was originally to capture what?",
+            "correct_answer": "Caucasus",
+            "incorrect_answers": [
+                "Stalingrad",
+                "Crimea",
+                "Voronezh"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "What was Napoleon Bonaparte&#039;s name before he changed it?",
+            "correct_answer": "Napoleone di Buonaparte",
+            "incorrect_answers": [
+                "Naapolion van Bonijpaart",
+                "Napole&atilde;o do Boaparte",
+                "Napoleona de Buenoparte"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "Before the American colonies switched to the Gregorian calendar in 1752, on what date did their new year start?",
+            "correct_answer": "March 25th",
+            "incorrect_answers": [
+                "June 1st",
+                "September 25th",
+                "December 1st"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "What was the real name of the Albanian national leader Skanderbeg?",
+            "correct_answer": "Gjergj Kastrioti",
+            "incorrect_answers": [
+                "Diturak Zhulati",
+                "Iskander Bejko",
+                "Mirash Krasniki"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "What was the name of the spy ring that helped the United States win the Revolutionary War?",
+            "correct_answer": "Culper Ring",
+            "incorrect_answers": [
+                "New York Spy Ring",
+                "Washington&#039;s Spies",
+                "Unnamed"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "What was the original name of New York City?",
+            "correct_answer": "New Amsterdam",
+            "incorrect_answers": [
+                "New London",
+                "New Paris",
+                "New Rome"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "What age was King Henry V when he died?",
+            "correct_answer": "35",
+            "incorrect_answers": [
+                "62",
+                "87",
+                "73"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "Pianist Fr&eacute;d&eacute;ric Chopin was a composer of which musical era?",
+            "correct_answer": "Romantic",
+            "incorrect_answers": [
+                "Classic",
+                "Baroque",
+                "Renaissance"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "Which of the following Physicists aided Nazi Germany in their production of a nuclear weapon?",
+            "correct_answer": "Werner Heisenberg",
+            "incorrect_answers": [
+                "John von Neumann",
+                "Albert Einstein",
+                "Max Planck"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "Who assassinated President James A. Garfield?",
+            "correct_answer": "Charles Guiteau",
+            "incorrect_answers": [
+                "Sirhan Sirhan",
+                "Leon Czolgosz",
+                "John Wilkes Booth"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "When did the French Revolution begin?",
+            "correct_answer": "1789",
+            "incorrect_answers": [
+                "1823",
+                "1756",
+                "1799"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "The pantheon in Rome was used to worship what god?",
+            "correct_answer": "Any god they wanted",
+            "incorrect_answers": [
+                "Athena",
+                "Zeus",
+                "Both Athena and Zeus"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "What did the first vending machines in the early 1880&#039;s dispense?",
+            "correct_answer": "Post cards",
+            "incorrect_answers": [
+                "Alcohol",
+                "Cigarettes",
+                "Sodas "
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "When was the SS or Schutzstaffel established?",
+            "correct_answer": "April 4th, 1925",
+            "incorrect_answers": [
+                "September 1st, 1941",
+                "March 8th, 1935",
+                "February 21st, 1926"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "Spain was formed in 1469 with the marriage of Isabella I of Castile and Ferdinand II of what other Iberian kingdom?",
+            "correct_answer": "Aragon",
+            "incorrect_answers": [
+                "Galicia",
+                "Le&oacute;n",
+                "Navarre"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "The Hagia Sophia was commissioned by which emperor of the Byzantine Empire?",
+            "correct_answer": "Justinian I",
+            "incorrect_answers": [
+                "Constantine IV",
+                "Arcadius",
+                "Theodosius the Great"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "What did the abbreviation &quot;RMS&quot; stand for in the RMS Titanic in 1912?",
+            "correct_answer": "Royal Mail Ship",
+            "incorrect_answers": [
+                "Royal Majesty Service",
+                "Regular Maritime Schedule ",
+                "Regulated Maelstrom Sensor"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "The Second Boer War in 1899 was fought where?",
+            "correct_answer": "South Africa",
+            "incorrect_answers": [
+                "Argentina",
+                "Nepal",
+                "Bulgaria"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "Which King of England was faced with the Peasants&#039; Revolt in 1381?",
+            "correct_answer": "Richard II",
+            "incorrect_answers": [
+                "Edward III",
+                "Edward II",
+                "Henry IV"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "Which country did the Eureka Rebellion, an 1856 battle against colonial rule, take place in?",
+            "correct_answer": "Australia",
+            "incorrect_answers": [
+                "India",
+                "Canada",
+                "Brazil"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "Which English king was married to Eleanor of Aquitaine?",
+            "correct_answer": "Henry II",
+            "incorrect_answers": [
+                "Richard I",
+                "Henry I",
+                "Henry V"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "Who was the first man to travel into outer space twice?",
+            "correct_answer": "Gus Grissom",
+            "incorrect_answers": [
+                "Vladimir Komarov",
+                "Charles Conrad",
+                "Yuri Gagarin"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "When was the city of Rome, Italy founded?",
+            "correct_answer": "753 BCE",
+            "incorrect_answers": [
+                "902 BCE",
+                "524 BCE",
+                "697 BCE"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "History",
+            "question": "Which day did World War I begin?",
+            "correct_answer": "July 28",
+            "incorrect_answers": [
+                "January 28",
+                "June 28",
+                "April 28"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "In DC comics where does the Green Arrow (Oliver Queen) live?",
+            "correct_answer": "Star City",
+            "incorrect_answers": [
+                "Central City",
+                "Gotham City",
+                "Metropolis"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "The Flag of the European Union has how many stars on it?",
+            "correct_answer": "12",
+            "incorrect_answers": [
+                "10",
+                "14",
+                "16"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "What is the nickname of the US state of California?",
+            "correct_answer": "Golden State",
+            "incorrect_answers": [
+                "Sunshine State",
+                "Bay State",
+                "Treasure State"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "Who is depicted on the US hundred dollar bill?",
+            "correct_answer": "Benjamin Franklin",
+            "incorrect_answers": [
+                "George Washington",
+                "Abraham Lincoln",
+                "Thomas Jefferson"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "What is the closest planet to our solar system&#039;s sun?",
+            "correct_answer": "Mercury",
+            "incorrect_answers": [
+                "Mars",
+                "Jupiter",
+                "Earth"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "Which best selling toy of 1983 caused hysteria, resulting in riots breaking out in stores?",
+            "correct_answer": "Cabbage Patch Kids",
+            "incorrect_answers": [
+                "Transformers",
+                "Care Bears",
+                "Rubik&rsquo;s Cube"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "Which of the following presidents is not on Mount Rushmore?",
+            "correct_answer": "John F. Kennedy",
+            "incorrect_answers": [
+                "Theodore Roosevelt",
+                "Abraham Lincoln",
+                "Thomas Jefferson"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "Which one of the following rhythm games was made by Harmonix?",
+            "correct_answer": "Rock Band",
+            "incorrect_answers": [
+                "Meat Beat Mania",
+                "Guitar Hero Live",
+                "Dance Dance Revolution"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "What kind of aircraft was developed by Igor Sikorsky in the United States in 1942?",
+            "correct_answer": "Helicopter",
+            "incorrect_answers": [
+                "Stealth Blimp",
+                "Jet",
+                "Space Capsule"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "What airline was the owner of the plane that crashed off the coast of Nova Scotia in 1998?",
+            "correct_answer": "Swiss Air",
+            "incorrect_answers": [
+                "Air France",
+                "British Airways",
+                "TWA"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "Which American president appears on a one dollar bill?",
+            "correct_answer": "George Washington",
+            "incorrect_answers": [
+                "Thomas Jefferson",
+                "Abraham Lincoln",
+                "Benjamin Franklin"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "If you are caught &quot;Goldbricking&quot;, what are you doing wrong?",
+            "correct_answer": "Slacking",
+            "incorrect_answers": [
+                "Smoking",
+                "Stealing",
+                "Cheating"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "What nuts are used in the production of marzipan?",
+            "correct_answer": "Almonds",
+            "incorrect_answers": [
+                "Peanuts",
+                "Walnuts",
+                "Pistachios"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "When was the Playstation 3 released?",
+            "correct_answer": "November 11, 2006",
+            "incorrect_answers": [
+                "January 8, 2007",
+                "December 25, 2007",
+                "July 16, 2006"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "What alcoholic drink is made from molasses?",
+            "correct_answer": "Rum",
+            "incorrect_answers": [
+                "Gin",
+                "Vodka",
+                "Whisky"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "Who is the author of Jurrasic Park?",
+            "correct_answer": "Michael Crichton",
+            "incorrect_answers": [
+                "Peter Benchley",
+                "Chuck Paluhniuk",
+                "Irvine Welsh"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "What geometric shape is generally used for stop signs?",
+            "correct_answer": "Octagon",
+            "incorrect_answers": [
+                "Hexagon",
+                "Circle",
+                "Triangle"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "Who invented the first ever chocolate bar, in 1847?",
+            "correct_answer": "Joseph Fry",
+            "incorrect_answers": [
+                "Andrew Johnson",
+                "John Cadbury",
+                "John Tyler"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "The &ldquo;fairy&rdquo; type made it&rsquo;s debut in which generation of the Pokemon core series games?",
+            "correct_answer": "6th",
+            "incorrect_answers": [
+                "2nd",
+                "7th",
+                "4th"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "What is the Spanish word for &quot;donkey&quot;?",
+            "correct_answer": "Burro",
+            "incorrect_answers": [
+                "Caballo",
+                "Toro",
+                "Perro"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "In which fast food chain can you order a Jamocha Shake?",
+            "correct_answer": "Arby&#039;s",
+            "incorrect_answers": [
+                "McDonald&#039;s",
+                "Burger King",
+                "Wendy&#039;s"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "What word represents the letter &#039;T&#039; in the NATO phonetic alphabet?",
+            "correct_answer": "Tango",
+            "incorrect_answers": [
+                "Target",
+                "Taxi",
+                "Turkey"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "When someone is inexperienced they are said to be what color?",
+            "correct_answer": "Green",
+            "incorrect_answers": [
+                "Red",
+                "Blue",
+                "Yellow"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "How tall is the Burj Khalifa?",
+            "correct_answer": "2,722 ft",
+            "incorrect_answers": [
+                "2,717 ft",
+                "2,546 ft",
+                "3,024 ft"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "According to the nursery rhyme, what fruit did Little Jack Horner pull out of his Christmas pie?",
+            "correct_answer": "Plum",
+            "incorrect_answers": [
+                "Apple",
+                "Peach",
+                "Pear"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "Which candy is NOT made by Mars?",
+            "correct_answer": "Almond Joy",
+            "incorrect_answers": [
+                "M&amp;M&#039;s",
+                "Twix",
+                "Snickers"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "What do the letters of the fast food chain KFC stand for?",
+            "correct_answer": "Kentucky Fried Chicken",
+            "incorrect_answers": [
+                "Kentucky Fresh Cheese",
+                "Kibbled Freaky Cow",
+                "Kiwi Food Cut"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "In past times, what would a gentleman keep in his fob pocket?",
+            "correct_answer": "Watch",
+            "incorrect_answers": [
+                "Money",
+                "Keys",
+                "Notebook"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "What is the largest organ of the human body?",
+            "correct_answer": "Skin",
+            "incorrect_answers": [
+                "Heart",
+                "large Intestine",
+                "Liver"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "Waluigi&#039;s first appearance was in what game?",
+            "correct_answer": "Mario Tennis 64 (N64)",
+            "incorrect_answers": [
+                "Wario Land: Super Mario Land 3",
+                "Mario Party (N64)",
+                "Super Smash Bros. Ultimate"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "Which country, not including Japan, has the most people of japanese decent?",
+            "correct_answer": "Brazil",
+            "incorrect_answers": [
+                "China",
+                "South Korea",
+                "United States of America"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "What do the letters in the GMT time zone stand for?",
+            "correct_answer": "Greenwich Mean Time",
+            "incorrect_answers": [
+                "Global Meridian Time",
+                "General Median Time",
+                "Glasgow Man Time"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "What is the French word for &quot;fish&quot;?",
+            "correct_answer": "poisson",
+            "incorrect_answers": [
+                "fiche",
+                "escargot",
+                "mer"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "What is the French word for &quot;hat&quot;?",
+            "correct_answer": "Chapeau",
+            "incorrect_answers": [
+                "Bonnet",
+                " &Eacute;charpe",
+                " Casque"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "What is the Zodiac symbol for Gemini?",
+            "correct_answer": "Twins",
+            "incorrect_answers": [
+                "Fish",
+                "Scales",
+                "Maiden"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "Which one of these is not a typical European sword design?",
+            "correct_answer": "Scimitar",
+            "incorrect_answers": [
+                "Falchion",
+                "Ulfberht",
+                "Flamberge"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "Virgin Trains, Virgin Atlantic and Virgin Racing, are all companies owned by which famous entrepreneur?   ",
+            "correct_answer": "Richard Branson",
+            "incorrect_answers": [
+                "Alan Sugar",
+                "Donald Trump",
+                "Bill Gates"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "The Canadian $1 coin is colloquially known as a what?",
+            "correct_answer": "Loonie",
+            "incorrect_answers": [
+                "Boolie",
+                "Foolie",
+                "Moodie"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "When one is &quot;envious&quot;, they are said to be what color?",
+            "correct_answer": "Green",
+            "incorrect_answers": [
+                "Red",
+                "Blue",
+                "Yellow"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "Which of the following is the IATA code for Manchester Airport?",
+            "correct_answer": "MAN",
+            "incorrect_answers": [
+                "EGLL",
+                "LHR",
+                "EGCC"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "What was the nickname given to the Hughes H-4 Hercules, a heavy transport flying boat which achieved flight in 1947?",
+            "correct_answer": "Spruce Goose",
+            "incorrect_answers": [
+                "Noah&#039;s Ark",
+                "Fat Man",
+                "Trojan Horse"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "What is &quot;dabbing&quot;?",
+            "correct_answer": "A dance",
+            "incorrect_answers": [
+                "A medical procedure",
+                "A sport",
+                "A language"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "The New York Times slogan is, &ldquo;All the News That&rsquo;s Fit to&hellip;&rdquo;",
+            "correct_answer": "Print",
+            "incorrect_answers": [
+                "Digest",
+                "Look",
+                "Read"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "Which of the following card games revolves around numbers and basic math?",
+            "correct_answer": "Uno",
+            "incorrect_answers": [
+                "Go Fish",
+                "Twister",
+                "Munchkin"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "How would one say goodbye in Spanish?",
+            "correct_answer": "Adi&oacute;s",
+            "incorrect_answers": [
+                " Hola",
+                "Au Revoir",
+                "Salir"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "What zodiac sign is represented by a pair of scales?",
+            "correct_answer": "Libra",
+            "incorrect_answers": [
+                "Aries",
+                "Capricorn",
+                "Sagittarius"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "The likeness of which president is featured on the rare $2 bill of USA currency?",
+            "correct_answer": "Thomas Jefferson",
+            "incorrect_answers": [
+                "Martin Van Buren",
+                "Ulysses Grant",
+                "John Quincy Adams"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "What machine element is located in the center of fidget spinners?",
+            "correct_answer": "Bearings",
+            "incorrect_answers": [
+                "Axles",
+                "Gears",
+                "Belts"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "In Half-Life, what is the name of the alien that attaches to heads?",
+            "correct_answer": "Headcrab",
+            "incorrect_answers": [
+                "Bullsquid",
+                "Vortigaunt",
+                "Facehugger"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "Which company did Valve cooperate with in the creation of the Vive?",
+            "correct_answer": "HTC",
+            "incorrect_answers": [
+                "Oculus",
+                "Google",
+                "Razer"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "What was the original name of the search engine &quot;Google&quot;?",
+            "correct_answer": "BackRub",
+            "incorrect_answers": [
+                "CatMassage",
+                "SearchPro",
+                "Netscape Navigator"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "What year was Apple Inc. founded?",
+            "correct_answer": "1976",
+            "incorrect_answers": [
+                "1978",
+                "1980",
+                "1974"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "What is the name of the popular animatronic singing fish prop, singing such hits such as &quot;Don&#039;t Worry, Be Happy&quot;?",
+            "correct_answer": "Big Mouth Billy Bass",
+            "incorrect_answers": [
+                "Big Billy Bass",
+                "Singing Fish",
+                "Sardeen"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "When was the Declaration of Independence approved by the Second Continental Congress?",
+            "correct_answer": "July 4, 1776",
+            "incorrect_answers": [
+                "May 4, 1776",
+                "June 4, 1776",
+                "July 2, 1776"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "Which of the General Mills Corporation&#039;s monster cereals was the last to be released in the 1970&#039;s?",
+            "correct_answer": "Fruit Brute",
+            "incorrect_answers": [
+                "Count Chocula",
+                "Franken Berry",
+                "Boo-Berry"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "What is the romanized Japanese word for &quot;university&quot;?",
+            "correct_answer": "Daigaku",
+            "incorrect_answers": [
+                "Toshokan",
+                "Jimusho",
+                "Shokudou"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "Which iconic Disneyland attraction was closed in 2017 to be remodeled as a &quot;Guardians of the Galaxy&quot; themed ride?",
+            "correct_answer": "Twilight Zone Tower of Terror",
+            "incorrect_answers": [
+                "The Haunted Mansion",
+                "Pirates of the Caribbean",
+                "Peter Pan&#039;s Flight"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "According to the United States&#039; CDC, one in how many Americans die annually due to smoking?",
+            "correct_answer": "Five",
+            "incorrect_answers": [
+                "Twenty",
+                "Ten",
+                "One hundred"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "Linus Pauling, one of the only winners of multiple Nobel Prizes, earned his Nobel Prizes in Chemistry and what?",
+            "correct_answer": "Peace",
+            "incorrect_answers": [
+                "Physics",
+                "Economics",
+                "Physiology\/Medicine"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "Which river flows through the Scottish city of Glasgow?",
+            "correct_answer": "Clyde",
+            "incorrect_answers": [
+                "Tay",
+                "Dee",
+                "Tweed"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "In the Morse code, which letter is indicated by 3 dots? ",
+            "correct_answer": "S",
+            "incorrect_answers": [
+                "O",
+                "A",
+                "C"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "According to the BBPA, what is the most common pub name in the UK?",
+            "correct_answer": "Red Lion",
+            "incorrect_answers": [
+                "Royal Oak",
+                "White Hart",
+                "King&#039;s Head"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "This field is sometimes known as &ldquo;The Dismal Science.&rdquo;",
+            "correct_answer": "Economics",
+            "incorrect_answers": [
+                "Philosophy",
+                "Politics",
+                "Physics"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "What is the full title of the Prime Minister of the UK?",
+            "correct_answer": "First Lord of the Treasury",
+            "incorrect_answers": [
+                "Duke of Cambridge",
+                "Her Majesty&#039;s Loyal Opposition",
+                "Manager of the Crown Estate"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "What is the Swedish word for &quot;window&quot;?",
+            "correct_answer": "F&ouml;nster",
+            "incorrect_answers": [
+                "H&aring;l",
+                "Sk&auml;rm",
+                "Ruta"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "Whose greyscale face is on the kappa emoticon on Twitch?",
+            "correct_answer": "Josh DeSeno",
+            "incorrect_answers": [
+                "Justin DeSeno",
+                "John DeSeno",
+                "Jimmy DeSeno"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "What are the three starter Pokemon available in Pokemon Black and White?",
+            "correct_answer": "Snivy, Tepig, Oshawott",
+            "incorrect_answers": [
+                "Snivy, Fennekin, Froakie",
+                "Chespin, Tepig, Froakie",
+                "Chespin, Fennekin, Oshawott"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "When did the website &quot;Facebook&quot; launch?",
+            "correct_answer": "2004",
+            "incorrect_answers": [
+                "2005",
+                "2003",
+                "2006"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "Directly between the Washington Monument and the Reflecting Pool is a memorial to which war?",
+            "correct_answer": "World War II",
+            "incorrect_answers": [
+                "Vietnam War",
+                "American Civil War",
+                "American Revolutionary War"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "Which of the following buildings is example of a structure primarily built in the Art Deco architectural style?",
+            "correct_answer": "Niagara Mohawk Building",
+            "incorrect_answers": [
+                "Taipei 101",
+                "One Detroit Center",
+                "Westendstrasse 1"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "Frank Lloyd Wright was the architect behind what famous building?",
+            "correct_answer": "The Guggenheim",
+            "incorrect_answers": [
+                "Villa Savoye",
+                "Sydney Opera House",
+                "The Space Needle"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "In ancient Greece, if your job were a &quot;hippeus&quot; which of these would you own?",
+            "correct_answer": "Horse",
+            "incorrect_answers": [
+                "Weave",
+                "Guitar",
+                "Boat"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "Which country has the most Trappist breweries?",
+            "correct_answer": "Belgium",
+            "incorrect_answers": [
+                "Netherlands",
+                "France",
+                "USA"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "What was Mountain Dew&#039;s original slogan?",
+            "correct_answer": "Yahoo! Mountain Dew... It&#039;ll tickle your innards!",
+            "incorrect_answers": [
+                "Give Me A Dew",
+                "Do The Dew",
+                "Get&#039; that barefoot feelin&#039; drinkin&#039; Mountain Dew"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "Which essential condiment is also known as Japanese horseradish?",
+            "correct_answer": "Wasabi ",
+            "incorrect_answers": [
+                "Mentsuyu",
+                "Karashi",
+                "Ponzu"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "What is the defining characteristic of someone who is described as hirsute?",
+            "correct_answer": "Hairy",
+            "incorrect_answers": [
+                "Rude",
+                "Funny",
+                "Tall"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "What is the world&#039;s most expensive spice by weight?",
+            "correct_answer": "Saffron",
+            "incorrect_answers": [
+                "Cinnamon",
+                "Cardamom",
+                "Vanilla"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "The term &quot;scientist&quot; was coined in which year?",
+            "correct_answer": "1833",
+            "incorrect_answers": [
+                "1933",
+                "1942",
+                "1796"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "A doctor with a PhD is a doctor of what?",
+            "correct_answer": "Philosophy",
+            "incorrect_answers": [
+                "Psychology",
+                "Phrenology",
+                "Physical Therapy"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "The new One World Trade Center in Manhattan, New York City was designed by which architect? ",
+            "correct_answer": "David Childs",
+            "incorrect_answers": [
+                "Bjarke Ingels",
+                "Michael Arad",
+                "Fumihiko Maki"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "Which of these companies does NOT manufacture automobiles?",
+            "correct_answer": "Ducati",
+            "incorrect_answers": [
+                "Nissan",
+                "GMC",
+                "Fiat"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "Which Italian automobile manufacturer gained majority control of U.S. automobile manufacturer Chrysler in 2011?",
+            "correct_answer": "Fiat",
+            "incorrect_answers": [
+                "Maserati",
+                "Alfa Romeo",
+                "Ferrari"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "What fast food chain has the most locations globally? ",
+            "correct_answer": "Subway",
+            "incorrect_answers": [
+                "Starbucks",
+                "McDonalds",
+                "KFC"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "Which American manufactured submachine gun was informally known by the American soldiers that used it as &quot;Grease Gun&quot;?",
+            "correct_answer": "M3",
+            "incorrect_answers": [
+                "Colt 9mm",
+                "Thompson",
+                "MAC-10"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "Which of the following carbonated soft drinks were introduced first?",
+            "correct_answer": "Dr. Pepper",
+            "incorrect_answers": [
+                "Coca-Cola",
+                "Sprite",
+                "Mountain Dew"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "Who is the founder of &quot;The Lego Group&quot;?",
+            "correct_answer": "Ole Kirk Christiansen",
+            "incorrect_answers": [
+                " Jens Niels Christiansen",
+                "Kirstine Christiansen",
+                " Gerhardt Kirk Christiansen"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "The website &quot;Shut Up &amp; Sit Down&quot; reviews which form of media?",
+            "correct_answer": "Board Games",
+            "incorrect_answers": [
+                "Television Shows",
+                "Video Games",
+                "Films"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "What was the name given to Japanese military dictators who ruled the country through the 12th and 19th Century?",
+            "correct_answer": "Shogun",
+            "incorrect_answers": [
+                "Ninja",
+                "Samurai",
+                "Shinobi"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "What direction does the Statue of Liberty face?",
+            "correct_answer": "Southeast",
+            "incorrect_answers": [
+                "Southwest",
+                "Northwest",
+                "Northeast"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "What is the Italian word for &quot;tomato&quot;?",
+            "correct_answer": "Pomodoro",
+            "incorrect_answers": [
+                "Aglio",
+                "Cipolla",
+                "Peperoncino"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "Who invented Pastafarianism?",
+            "correct_answer": "Bobby Henderson",
+            "incorrect_answers": [
+                "Eric Tignor",
+                "Bill Nye",
+                "Zach Soldi"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "Amsterdam Centraal station is twinned with what station?",
+            "correct_answer": "London Liverpool Street",
+            "incorrect_answers": [
+                "Frankfurt (Main) Hauptbahnhof",
+                "Paris Gare du Nord",
+                "Brussels Midi"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "What is the name of the very first video uploaded to YouTube?",
+            "correct_answer": "Me at the zoo",
+            "incorrect_answers": [
+                "tribute",
+                "carrie rides a truck",
+                "Her new puppy from great grandpa vern."
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "In 2013 how much money was lost by Nigerian scams?",
+            "correct_answer": "$12.7 Billion",
+            "incorrect_answers": [
+                "$95 Million",
+                "$956 Million",
+                "$2.7 Billion"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "What country saw a world record 315 million voters turn out for elections on May 20, 1991?",
+            "correct_answer": "India",
+            "incorrect_answers": [
+                "United States of America",
+                "Soviet Union",
+                "Poland"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "Computer manufacturer Compaq was acquired for $25 billion dollars in 2002 by which company?",
+            "correct_answer": "Hewlett-Packard",
+            "incorrect_answers": [
+                "Toshiba",
+                "Asus",
+                "Dell"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "The architect known as Le Corbusier was an important figure in what style of architecture?",
+            "correct_answer": "Modernism",
+            "incorrect_answers": [
+                "Neoclassical",
+                "Baroque",
+                "Gothic Revival"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "The Fields Medal, one of the most sought after awards in mathematics, is awarded every how many years?",
+            "correct_answer": "4",
+            "incorrect_answers": [
+                "3",
+                "5",
+                "6"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "Where does water from Poland Spring water bottles come from?",
+            "correct_answer": "Maine, United States",
+            "incorrect_answers": [
+                "Hesse, Germany",
+                "Masovia, Poland",
+                "Bavaria, Poland"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "Which of these words means &quot;idle spectator&quot;?",
+            "correct_answer": "Gongoozler",
+            "incorrect_answers": [
+                "Gossypiboma",
+                "Jentacular",
+                "Meupareunia"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "Disney&#039;s Haunted Mansion is home to a trio of Hitchhiking Ghosts. Which of these is NOT one of them?",
+            "correct_answer": "Harry",
+            "incorrect_answers": [
+                "Gus",
+                "Phineas",
+                "Ezra"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "According to the 2014-2015 Australian Bureau of Statistics, what percentage of Australians were born overseas?",
+            "correct_answer": "28%",
+            "incorrect_answers": [
+                "13%",
+                "20%",
+                "7%"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "If you planted the seeds of Quercus robur, what would grow?",
+            "correct_answer": "Trees",
+            "incorrect_answers": [
+                "Grains",
+                "Vegetables",
+                "Flowers"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "How long did it take the motorized window washers of the original World Trade Center to clean the entire exterior of the building?",
+            "correct_answer": "1 Month",
+            "incorrect_answers": [
+                "3 Weeks",
+                "1 Week",
+                "2 Months"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "In &quot;Resident Evil 3&quot;, how many inventory slots does Jill have at the start of the game?",
+            "correct_answer": "10",
+            "incorrect_answers": [
+                "6",
+                "8",
+                "12"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "The word &quot;astasia&quot; means which of the following?",
+            "correct_answer": "The inability to stand up",
+            "incorrect_answers": [
+                "The inability to make decisions",
+                "The inability to concentrate on anything",
+                "A feverish desire to rip one&#039;s clothes off"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "Which film star has his statue in Leicester Square?",
+            "correct_answer": "Charlie Chaplin",
+            "incorrect_answers": [
+                "Paul Newman",
+                "Rowan Atkinson ",
+                "Alfred Hitchcock"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "Which of the following  British Monarchs never appeared on a circulated pound sterling coin?",
+            "correct_answer": "Edward VIII",
+            "incorrect_answers": [
+                "Victoria",
+                "George VI",
+                "Charles II"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "Before the 19th Century, the &quot;Living Room&quot; was originally called the...",
+            "correct_answer": "Parlor",
+            "incorrect_answers": [
+                "Open Room",
+                "Sitting Room",
+                "Loft"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "What does the Latin phrase &quot;Veni, vidi, vici&quot; translate into English?",
+            "correct_answer": "I came, I saw, I conquered",
+            "incorrect_answers": [
+                "See no evil, hear no evil, speak no evil",
+                "Life, liberty, and happiness",
+                "Past, present, and future"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "What type of dog is &#039;Handsome Dan&#039;, the mascot of Yale University?",
+            "correct_answer": "Bulldog",
+            "incorrect_answers": [
+                "Yorkshire Terrier",
+                "Boxer",
+                "Pug"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "Who founded the Khan Academy?",
+            "correct_answer": "Sal Khan",
+            "incorrect_answers": [
+                "Ben Khan",
+                "Kitt Khan",
+                "Adel Khan"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "Which of these cities does NOT have a United States Minting location?",
+            "correct_answer": "St. Louis, MO",
+            "incorrect_answers": [
+                "San Fransisco, CA",
+                "Philidelphia, PA",
+                "West Point, NY"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "In &quot;Battle Cats&quot;, what is Moneko \/ MISS Moneko&#039;s critical percentage rate?",
+            "correct_answer": "15%",
+            "incorrect_answers": [
+                "20%",
+                "10%",
+                "25%"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "What is the most commonly used noun in the English language?",
+            "correct_answer": "Time",
+            "incorrect_answers": [
+                "Home",
+                "Water",
+                "Man"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "What is the airspeed velocity of an unladen swallow?",
+            "correct_answer": "24 MPH",
+            "incorrect_answers": [
+                "15 MPH",
+                "20 MPH",
+                "200 MPH"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "Which musician has collaborated with American producer Porter Robinson and released the 2016 song &quot;Shelter&quot;?",
+            "correct_answer": "Madeon",
+            "incorrect_answers": [
+                "Mat Zo",
+                "deadmau5",
+                "Zedd"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "What year was Queen Elizabeth II born?",
+            "correct_answer": "1926",
+            "incorrect_answers": [
+                "1923",
+                "1929",
+                "1930"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "Which church&#039;s interior in Vatican City was designed in 1503 by renaissance architects including Bramante, Michelangelo and Bernini?",
+            "correct_answer": "St. Peter&#039;s Basilica",
+            "incorrect_answers": [
+                "Catania Cathedral",
+                "St. Mark&rsquo;s Basilica",
+                "The Duomo of Florence"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "Chartreuse is a color between yellow and what?",
+            "correct_answer": "Green",
+            "incorrect_answers": [
+                "Red",
+                "Black",
+                "Purple"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "What is the weight of a Gold Bar in Fallout: New Vegas?",
+            "correct_answer": "35 Pounds",
+            "incorrect_answers": [
+                "30 Pounds",
+                "40 Pounds",
+                "32.50 Pounds"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "Located in Chile, El Teniente is the world&#039;s largest underground mine for what metal?",
+            "correct_answer": "Copper",
+            "incorrect_answers": [
+                "Iron",
+                "Nickel",
+                "Silver"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "Which product did Nokia, the telecommunications company, originally sell?",
+            "correct_answer": "Paper",
+            "incorrect_answers": [
+                "Phones",
+                "Computers",
+                "Processors"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "According to Fair Works Australia, how long do you have to work to get Long Service Leave?",
+            "correct_answer": "7 years",
+            "incorrect_answers": [
+                "2 years",
+                "8 years",
+                "6 months"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "Which of the following languages does NOT use gender as a part of its grammar?",
+            "correct_answer": "Turkish",
+            "incorrect_answers": [
+                "German",
+                "Danish",
+                "Polish"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "How many calories are in a 355 ml can of Pepsi Cola?",
+            "correct_answer": "150",
+            "incorrect_answers": [
+                "200",
+                "100",
+                "155"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "Electronic music producer Kygo&#039;s popularity skyrocketed after a certain remix. Which song did he remix?",
+            "correct_answer": "Ed Sheeran - I See Fire",
+            "incorrect_answers": [
+                "Marvin Gaye - Sexual Healing",
+                "Coldplay - Midnight",
+                "a-ha - Take On Me"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "How many notes are there on a standard grand piano?",
+            "correct_answer": "88",
+            "incorrect_answers": [
+                "98",
+                "108",
+                "78"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "The word &quot;abulia&quot; means which of the following?",
+            "correct_answer": "The inability to make decisions",
+            "incorrect_answers": [
+                "The inability to stand up",
+                "The inability to concentrate on anything",
+                "A feverish desire to rip one&#039;s clothes off"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "Nephelococcygia is the practice of doing what?",
+            "correct_answer": "Finding shapes in clouds",
+            "incorrect_answers": [
+                "Sleeping with your eyes open",
+                "Breaking glass with your voice",
+                "Swimming in freezing water"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "Named after the mallow flower, mauve is a shade of what?",
+            "correct_answer": "Purple",
+            "incorrect_answers": [
+                "Red",
+                "Brown",
+                "Pink"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "What is the romanized Chinese word for &quot;airplane&quot;?",
+            "correct_answer": "Feiji",
+            "incorrect_answers": [
+                "Qiche",
+                "Zongxian",
+                "Huojian"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "Which of the following is not another name for the eggplant?",
+            "correct_answer": "Potimarron",
+            "incorrect_answers": [
+                "Brinjal",
+                "Guinea Squash",
+                "Melongene"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "In flight systems, what does the initialism &quot;TCAS&quot; stand for?",
+            "correct_answer": "Traffic Collision Avoidance System",
+            "incorrect_answers": [
+                "Traffic Communication Alert System",
+                "Traffic Configuration Alignment System",
+                "Traffic Call-sign Abbreviation System"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "The word &quot;aprosexia&quot; means which of the following?",
+            "correct_answer": "The inability to concentrate on anything",
+            "incorrect_answers": [
+                "The inability to make decisions",
+                "A feverish desire to rip one&#039;s clothes off",
+                "The inability to stand up"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "Which of the following is an existing family in &quot;The Sims&quot;?",
+            "correct_answer": "The Goth Family",
+            "incorrect_answers": [
+                "The Family",
+                "The Simoleon Family",
+                "The Proud Family"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "Which one of these Swedish companies was founded in 1943?",
+            "correct_answer": "IKEA",
+            "incorrect_answers": [
+                "H &amp; M",
+                "Lindex",
+                "Clas Ohlson"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "Originally another word for poppy, coquelicot is a shade of what?",
+            "correct_answer": "Red",
+            "incorrect_answers": [
+                "Green",
+                "Blue",
+                "Pink"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "Virtual reality company Oculus VR lost which of it&#039;s co-founders in a freak car accident in 2013?",
+            "correct_answer": "Andrew Scott Reisse",
+            "incorrect_answers": [
+                "Nate Mitchell",
+                "Jack McCauley",
+                "Palmer Luckey"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "Which of these banks are NOT authorized to issue currency notes in Hong Kong?",
+            "correct_answer": "OCBC",
+            "incorrect_answers": [
+                "HSBC",
+                "Standard Chartered",
+                "Bank of China"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "When was &quot;YouTube&quot; founded?",
+            "correct_answer": "February 14, 2005",
+            "incorrect_answers": [
+                "May 22, 2004",
+                "September 12, 2005",
+                "July 19, 2009"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "In the MMO RPG &quot;Realm of the Mad God&quot;, what dungeon is widely considered to be the most difficult?",
+            "correct_answer": "The Shatter&#039;s",
+            "incorrect_answers": [
+                "Snake Pit",
+                "The Tomb of the Acient&#039;s",
+                "The Puppet Master&#039;s Theater"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "Where is Apple Inc. headquartered?",
+            "correct_answer": "Cupertino, California",
+            "incorrect_answers": [
+                "Redwood City, California",
+                "Redmond, Washington",
+                "Santa Monica, CA"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "What is the romanized Arabic word for &quot;moon&quot;?",
+            "correct_answer": "Qamar",
+            "incorrect_answers": [
+                "Najma",
+                "Kawkab",
+                "Shams"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "De Eemhof, Port Zelande and Het Heijderbos are holiday villas owned by what company?",
+            "correct_answer": "Center Parcs",
+            "incorrect_answers": [
+                "Yelloh Village",
+                "Keycamp",
+                "Villa Plus"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "What was Bank of America originally established as?",
+            "correct_answer": "Bank of Italy",
+            "incorrect_answers": [
+                "Bank of Long Island",
+                "Bank of Pennsylvania",
+                "Bank of Charlotte"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "What was the third country to have a McDonald&#039;s restaurant?",
+            "correct_answer": "Costa Rica",
+            "incorrect_answers": [
+                "Japan",
+                "France",
+                "Australia"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "The words &quot;bungalow&quot; and &quot;shampoo&quot; originate from the languages of which country?",
+            "correct_answer": "India",
+            "incorrect_answers": [
+                "Papua New Guinea",
+                "Ethiopia",
+                "China"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "Sciophobia is the fear of what?",
+            "correct_answer": "Shadows",
+            "incorrect_answers": [
+                "Eating",
+                "Bright lights",
+                "Transportation"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "The Quadrangularis Reversum is best described as which of the following?",
+            "correct_answer": "A percussion instrument",
+            "incorrect_answers": [
+                "A building in Oxford University",
+                "A chess move",
+                "A geometric theorem"
+            ]
+        }
+    ]
+}
