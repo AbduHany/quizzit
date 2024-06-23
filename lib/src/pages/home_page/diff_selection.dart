@@ -5,6 +5,7 @@ Description:
   This Flutter file defines the Widget that appears before the user starts a
   where they are prompted for the difficulty of the quiz they want to take.
  */
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -68,8 +69,10 @@ class DiffSelection extends StatelessWidget {
               color: Theme.of(context).colorScheme.primary,
               onPressed: () {
                 //just a test for category and diff
-                print(chosenCategory);
-                print(chosenDifficulty);
+                if (kDebugMode) {
+                  print(chosenCategory);
+                  print(chosenDifficulty);
+                }
               },
               child: Text(
                 "Start Quiz!",

@@ -40,7 +40,7 @@ class QuizzitAPi {
           onReceiveProgress: progressCallback);
       return true;
     } catch (e) {
-      print(e);
+      if (kDebugMode) print(e);
       return false;
     }
   }

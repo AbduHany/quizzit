@@ -1,6 +1,5 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:quizzit/src/pages/start_page.dart';
 import 'package:quizzit/src/services/api_service.dart';
 import 'package:rive/rive.dart';
@@ -22,9 +21,9 @@ class _SplashScreenState extends State<SplashScreen> {
       padding: const EdgeInsets.all(10.0),
       child: Column(
         children: [
-          Expanded(
-            child: Container(
-              child: const RiveAnimation.asset(
+          const Expanded(
+            child: Center(
+              child: RiveAnimation.asset(
                 'assets/quizzit_animation.riv',
               ),
             ),
@@ -72,12 +71,11 @@ class _SplashScreenState extends State<SplashScreen> {
           if (localVersion <= cloudVersion) {
             bool result = await QuizzitAPi.getQuiz(downloadProgress);
             if (result == true) {
-              List<dynamic> aaa = await QuizzitAPi.localQuizData();
-              print(aaa);
-
               loadingText = "Download Complete";
               await Future.delayed(const Duration(seconds: 2));
-              Navigator.pushAndRemoveUntil(
+              // Check if the widget is still mounted before using the context
+              if (!mounted) return;
+              await Navigator.pushAndRemoveUntil(
                   context,
                   MaterialPageRoute(builder: (context) => const StartPage()),
                   (Route<dynamic> route) => false);
@@ -95,7 +93,7 @@ class _SplashScreenState extends State<SplashScreen> {
       setState(() {
         loadingText = 'Downloading ${progress.toStringAsFixed(2)}%';
       });
-      print('Download progress: $progress%');
+      if (kDebugMode) print('Download progress: $progress%');
     }
   }
 }
