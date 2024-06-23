@@ -20,7 +20,7 @@ class ResultPage extends StatefulWidget {
 class _ResultPageState extends State<ResultPage> {
   @override
   Widget build(BuildContext context) {
-    List<Map<String, Icon>> bottom_icons = [
+    List<Map<String, Icon>> bottomIcons = [
       {"Replay": const Icon(Icons.replay)},
       {"Home": const Icon(Icons.home)},
       {"Share": const Icon(Icons.share)}
@@ -35,7 +35,7 @@ class _ResultPageState extends State<ResultPage> {
         ),
         child: Column(
           children: [
-            ScoreStack(),
+            const ScoreStack(),
             // bottom panel with the icons
             Container(
               margin: const EdgeInsets.only(top: 150),
@@ -43,7 +43,7 @@ class _ResultPageState extends State<ResultPage> {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   ...List.generate(
-                    bottom_icons.length,
+                    bottomIcons.length,
                     (index) => Column(
                       children: [
                         Container(
@@ -55,10 +55,10 @@ class _ResultPageState extends State<ResultPage> {
                           child: IconButton(
                             iconSize: 30,
                             onPressed: () {},
-                            icon: bottom_icons[index].values.first,
+                            icon: bottomIcons[index].values.first,
                           ),
                         ),
-                        Text(bottom_icons[index].keys.first,
+                        Text(bottomIcons[index].keys.first,
                             style: GoogleFonts.poppins())
                       ],
                     ),

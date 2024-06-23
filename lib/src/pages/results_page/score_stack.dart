@@ -11,7 +11,7 @@ class ScoreStack extends StatefulWidget {
 class _ScoreStackState extends State<ScoreStack> {
   @override
   Widget build(BuildContext context) {
-    List<Map<String, int>> score_elems = [
+    List<Map<String, int>> scoreElems = [
       {"completion": 100},
       {"questions": 20},
       {"correct": 13},
@@ -80,7 +80,7 @@ class _ScoreStackState extends State<ScoreStack> {
                   crossAxisCount: 2, childAspectRatio: 1.5),
               shrinkWrap: true,
               physics: const NeverScrollableScrollPhysics(),
-              itemCount: score_elems.length,
+              itemCount: scoreElems.length,
               itemBuilder: (context, i) {
                 return Container(
                   alignment: Alignment.center,
@@ -88,14 +88,14 @@ class _ScoreStackState extends State<ScoreStack> {
                   height: 150,
                   child: ListTile(
                     title: Text(
-                      score_elems[i].values.first.toString().padLeft(2, '0'),
+                      scoreElems[i].values.first.toString().padLeft(2, '0'),
                       textAlign: TextAlign.center,
                       style: GoogleFonts.poppins(
                         fontSize: 30,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    subtitle: Text(score_elems[i].keys.first,
+                    subtitle: Text(scoreElems[i].keys.first,
                         textAlign: TextAlign.center,
                         style: GoogleFonts.poppins(
                           fontSize: 12,

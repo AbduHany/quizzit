@@ -50,7 +50,7 @@ class _StartPageState extends State<StartPage> {
             decoration: BoxDecoration(
                 color: Colors.grey, borderRadius: BorderRadius.circular(50)),
             alignment: Alignment.center,
-            margin: EdgeInsets.symmetric(horizontal: 50),
+            margin: const EdgeInsets.symmetric(horizontal: 50),
             height: MediaQuery.of(context).size.height * 0.4,
             child: const Text(
               "<LOGOIMAGEHERE>",
