@@ -10,7 +10,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class DiffSelection extends StatelessWidget {
-  final List<String> categories;
+  final List categories;
   final int categoryIndex;
 
   const DiffSelection(

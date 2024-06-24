@@ -11,6 +11,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:quizzit/src/pages/home_page/diff_selection.dart';
 import 'package:quizzit/src/pages/home_page/strike_card.dart';
 import 'package:quizzit/src/pages/profile_page/profile_page.dart';
+import 'package:quizzit/src/services/api_service.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -20,19 +21,25 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  List categories = [];
+  List questions = [];
+
+  @override
+  void initState() {
+    super.initState();
+
+    QuizzitAPi.localQuizData().then((value) {
+      questions = value;
+      setState(() {
+        Set categoriesSet = questions.map((item) => item["category"]).toSet();
+        categories = categoriesSet.toList();
+      });
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     double screenWidth = MediaQuery.of(context).size.width;
-    List<String> categories = [
-      "History",
-      "Geography",
-      "Sports",
-      "Star Wars",
-      "Animals",
-      "Science",
-      "Languages",
-      "Pokemon",
-    ];
 
     return Scaffold(
       body: ListView(
