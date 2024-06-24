@@ -2,6 +2,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:quizzit/src/pages/start_page.dart';
 import 'package:quizzit/src/services/api_service.dart';
+import 'package:quizzit/src/services/data_services.dart';
 import 'package:rive/rive.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -59,6 +60,10 @@ class _SplashScreenState extends State<SplashScreen> {
   void startUp() {
     loadingText = "Loading";
 
+    /* Creates the userData.json file and randomizes the names for the very
+    first time the app is run.
+    */
+    UserData.firstTime();
     QuizzitAPi.status().then((onValue) {
       if (onValue.statusCode == 200) {
         if (kDebugMode) print("service is online");

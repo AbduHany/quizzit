@@ -6,12 +6,14 @@ Description:
   "start playing" button in the start page where the user will have access to a
   list of categories and a strike card that shows how much points the user has.
  */
+
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:quizzit/src/pages/home_page/diff_selection.dart';
 import 'package:quizzit/src/pages/home_page/strike_card.dart';
 import 'package:quizzit/src/pages/profile_page/profile_page.dart';
 import 'package:quizzit/src/services/api_service.dart';
+import 'package:quizzit/src/services/data_services.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -21,6 +23,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  String userName = "";
   List categories = [];
   List questions = [];
 
@@ -28,6 +31,12 @@ class _HomePageState extends State<HomePage> {
   void initState() {
     super.initState();
 
+    // get user name from the userData.json file
+    UserData.getName().then((value) {
+      setState(() {
+        userName = value;
+      });
+    });
     QuizzitAPi.localQuizData().then((value) {
       // save all quiz questions in variable
       questions = value;
@@ -54,7 +63,7 @@ class _HomePageState extends State<HomePage> {
             height: MediaQuery.of(context).size.height * 0.2,
             child: ListTile(
               title: Text(
-                "Welcome back, User",
+                "Welcome back, $userName",
                 style: GoogleFonts.poppins(
                   fontSize: 20,
                 ),
