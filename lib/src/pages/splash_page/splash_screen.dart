@@ -82,7 +82,15 @@ class _SplashScreenState extends State<SplashScreen> {
             }
           }
         }();
+      } else {
+        setState(() {
+          loadingText = "Something happened! 🤷";
+        });
       }
+    }).catchError((onError) {
+      setState(() {
+        loadingText = "error";
+      });
     });
   }
 

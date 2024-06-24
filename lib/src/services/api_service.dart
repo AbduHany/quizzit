@@ -13,8 +13,11 @@ class QuizzitAPi {
     /**
    * get api status
    */
-
-    return await dio.get(apiBaseRoute + apiStatusRoute);
+    try {
+      return await dio.get(apiBaseRoute + apiStatusRoute);
+    } catch (e) {
+      return Response(requestOptions: RequestOptions(data: {}));
+    }
   }
 
   static Future<int> version() async {
