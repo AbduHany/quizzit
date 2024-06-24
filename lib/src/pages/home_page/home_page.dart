@@ -29,9 +29,12 @@ class _HomePageState extends State<HomePage> {
     super.initState();
 
     QuizzitAPi.localQuizData().then((value) {
+      // save all quiz questions in variable
       questions = value;
       setState(() {
+        // get all unique categories in variable
         Set categoriesSet = questions.map((item) => item["category"]).toSet();
+        // convert set to list
         categories = categoriesSet.toList();
       });
     });
