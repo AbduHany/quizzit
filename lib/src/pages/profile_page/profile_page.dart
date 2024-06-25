@@ -69,11 +69,16 @@ class _ProfilePageState extends State<ProfilePage> {
                           return [
                             // Edit Profile Page
                             PopupMenuItem(
-                              onTap: () {
-                                Navigator.of(context).push(MaterialPageRoute(
-                                    builder: (context) => EditProfile(
-                                          data: data,
-                                        )));
+                              onTap: () async {
+                                await Navigator.of(context)
+                                    .push(MaterialPageRoute(
+                                        builder: (context) => EditProfile(
+                                              data: data,
+                                            )));
+                                Map newData = await UserData.getData();
+                                setState(() {
+                                  data = newData;
+                                });
                               },
                               child: const Text("Edit Profile"),
                             ),
@@ -160,17 +165,14 @@ class _ProfilePageState extends State<ProfilePage> {
                             color: Theme.of(context).colorScheme.primary,
                             width: 5),
                         borderRadius: BorderRadius.circular(100),
-                        color: Colors.white,
-                        image: const DecorationImage(
-                            image: NetworkImage(
-                                "https://scontent.fcai19-7.fna.fbcdn.net/v/t31.18172-8/15724857_533887406820970_2802802680928799024_o.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEC3I6worX_nrKstmzAadAD3vimT8yBya_e-KZPzIHJrw2zeNzDX3b6UzlJWOY9iCI&_nc_ohc=jfBXg1heusMQ7kNvgHu4uNP&_nc_ht=scontent.fcai19-7.fna&oh=00_AYDQ0KXb0-RVOkexTe9zAgNMFOAdGjSzWfTBOqzXUtdh2g&oe=669D7163"),
-                            fit: BoxFit.cover)),
+                        color: Colors.white),
                     height: 200,
                     width: 200,
-                    /* child: const Icon(
+                    child: const Icon(
                       Icons.person_4_rounded,
                       size: 90,
-                    ), */
+                      color: Colors.black,
+                    ),
                   ),
                 ),
                 // User's first and last name
@@ -238,18 +240,17 @@ class _ProfilePageState extends State<ProfilePage> {
           children: [
             IconButton(
               onPressed: () {
-                Navigator.of(context).pushReplacement(
-                    MaterialPageRoute(builder: (context) => const HomePage()));
+                Navigator.of(context).pushAndRemoveUntil(
+                  MaterialPageRoute(builder: (context) => const HomePage()),
+                  (route) => false,
+                );
               },
               icon: const Icon(Icons.home),
               iconSize: 30,
               color: Colors.grey[900],
             ),
             IconButton(
-              onPressed: () {
-                Navigator.of(context).pushReplacement(MaterialPageRoute(
-                    builder: (context) => const ProfilePage()));
-              },
+              onPressed: () {},
               icon: const Icon(Icons.person),
               iconSize: 30,
               color: Colors.grey[900],

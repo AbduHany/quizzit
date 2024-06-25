@@ -68,8 +68,11 @@ class _StartPageState extends State<StartPage> {
                   borderRadius: BorderRadius.circular(20)),
               color: Theme.of(context).colorScheme.primary,
               onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => const HomePage()));
+                Navigator.pushAndRemoveUntil(
+                  context,
+                  MaterialPageRoute(builder: (context) => const HomePage()),
+                  (route) => false,
+                );
               },
               child: Text("Start Playing!",
                   style: GoogleFonts.roboto(

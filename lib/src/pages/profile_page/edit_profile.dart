@@ -1,5 +1,10 @@
+import 'dart:convert';
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:path_provider/path_provider.dart';
+import 'package:quizzit/src/utils/constants.dart';
 
 class EditProfile extends StatefulWidget {
   final Map<dynamic, dynamic> data;
@@ -220,7 +225,20 @@ class _EditProfileState extends State<EditProfile> {
                 ),
                 // New variables are saved in the firstName, lastName and gender
                 onPressed: () {
-                  if (formKey.currentState!.validate().toString() == "true") {}
+                  if (formKey.currentState!.validate().toString() == "true") {
+                    () async {
+                      String userFilePath =
+                          (await getApplicationDocumentsDirectory()).path +
+                              userData;
+                      File(userFilePath).writeAsStringSync(jsonEncode({
+                        "firstName": firstName,
+                        "lastName": lastName,
+                        "gender": gender,
+                        "birthDate": dateOfBirth
+                      }));
+                    }();
+                    Navigator.pop(context);
+                  }
                 },
                 color: Colors.red[800],
                 child: Text(
