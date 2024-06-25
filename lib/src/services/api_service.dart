@@ -66,7 +66,7 @@ class QuizzitAPi {
     return 0;
   }
 
-  static Future<List<Map<dynamic, dynamic>>> localQuizData() async {
+  static Future<List<dynamic>> localQuizData() async {
     /**
      * comapare versions
      * Return: true for newer false for No
@@ -80,7 +80,7 @@ class QuizzitAPi {
       String contents = await File(filePath).readAsString();
       Map<dynamic, dynamic> content = jsonDecode(contents);
 
-      List<Map<dynamic, dynamic>> quizData = content["quiz"];
+      List<dynamic> quizData = content["quiz"];
       return quizData;
     }
     return [];
@@ -88,9 +88,9 @@ class QuizzitAPi {
 
   static Future<List<dynamic>> getQuizQuestions(
       String category, String difficulty) async {
-    List<Map<dynamic, dynamic>> quiz = await localQuizData();
+    List<dynamic> quiz = await localQuizData();
 
-    List<Map<dynamic, dynamic>> categorized =
+    List<dynamic> categorized =
         quiz.where((element) => element["category"] == category).toList();
 
     if (difficulty == "Random") {
@@ -98,12 +98,12 @@ class QuizzitAPi {
       return categorized.take(10).toList();
     } else {
       categorized = categorized
-          .where((element) => element["difficulty"] == difficulty)
+          .where((element) => element["difficulty"] == difficulty.toLowerCase())
           .toList();
+      print("categorized");
+      print(categorized);
       categorized.shuffle();
       return categorized.take(10).toList();
     }
-
-    return [];
   }
 }

@@ -1,8 +1,5 @@
 {
     "version": 1,
-    "categories":[
-        "Geography","History","General Knowledge","Film"
-    ],
     "quiz": [
         {
             "type": "multiple",

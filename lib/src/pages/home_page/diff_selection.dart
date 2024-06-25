@@ -8,6 +8,8 @@ Description:
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:quizzit/src/pages/quiz_page/quiz_page.dart';
+import 'package:quizzit/src/services/api_service.dart';
 
 class DiffSelection extends StatelessWidget {
   final List<String> categories;
@@ -18,8 +20,8 @@ class DiffSelection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    late String? chosenDifficulty;
-    late String? chosenCategory;
+    String chosenDifficulty = 'Easy';
+    String chosenCategory = categories[categoryIndex];
     return AlertDialog(
       alignment: Alignment.center,
       content: SizedBox(
@@ -67,12 +69,18 @@ class DiffSelection extends StatelessWidget {
               minWidth: MediaQuery.of(context).size.width * 0.4,
               height: MediaQuery.of(context).size.height * 0.05,
               color: Theme.of(context).colorScheme.primary,
-              onPressed: () {
+              onPressed: () async {
                 //just a test for category and diff
                 if (kDebugMode) {
                   print(chosenCategory);
                   print(chosenDifficulty);
                 }
+                List<dynamic> currentQuiz = await QuizzitAPi.getQuizQuestions(
+                    chosenCategory, chosenDifficulty);
+
+                print(currentQuiz);
+                await Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => const QuizPage()));
               },
               child: Text(
                 "Start Quiz!",
