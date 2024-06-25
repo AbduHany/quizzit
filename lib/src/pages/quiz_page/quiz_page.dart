@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quizzit/src/pages/quiz_page/radio_button_item.dart';
 
 class QuizPage extends StatefulWidget {
   const QuizPage({super.key});
@@ -10,7 +11,6 @@ class QuizPage extends StatefulWidget {
 enum SingingCharacter { lafayette, jefferson }
 
 class _QuizPageState extends State<QuizPage> {
-  SingingCharacter? _character = SingingCharacter.lafayette;
   String? _selectedValue;
   @override
   Widget build(BuildContext context) {
@@ -180,48 +180,6 @@ class _QuizPageState extends State<QuizPage> {
                     ],
                   ),
                 ))
-          ],
-        ),
-      ),
-    );
-  }
-}
-
-class RadioButtonItem extends StatelessWidget {
-  final String value;
-  final String? groupValue;
-  final ValueChanged<String?> onChanged;
-
-  const RadioButtonItem({
-    required this.value,
-    required this.groupValue,
-    required this.onChanged,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return GestureDetector(
-      onTap: () {
-        onChanged(value);
-      },
-      child: Container(
-        margin: EdgeInsets.all(8.0),
-        padding: EdgeInsets.all(12.0),
-        decoration: BoxDecoration(
-          border: Border.all(
-            color: groupValue == value ? Colors.blue : Colors.grey,
-          ),
-          borderRadius: BorderRadius.circular(5.0),
-        ),
-        child: Row(
-          children: <Widget>[
-            Radio<String>(
-              value: value,
-              groupValue: groupValue,
-              onChanged: onChanged,
-            ),
-            SizedBox(width: 8.0),
-            Text(value),
           ],
         ),
       ),
