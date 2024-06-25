@@ -16,7 +16,7 @@ class UserData {
         "firstName": RandomNames(Zone.egypt).name(),
         "lastName": RandomNames(Zone.egypt).manName(),
         "gender": "Male",
-        "birthDate": "03/08/1994",
+        "birthDate": DateTime.now().toString().substring(0, 10),
       }));
       return true;
     }
@@ -28,9 +28,19 @@ class UserData {
     if (File(filePath).existsSync()) {
       String contents = await File(filePath).readAsString();
       Map content = jsonDecode(contents);
-      print(content);
       return content["firstName"] + " " + content["lastName"];
     }
     return "";
+  }
+
+  static Future<Map<dynamic, dynamic>> getData() async {
+    String filePath =
+        (await getApplicationDocumentsDirectory()).path + userData;
+    if (File(filePath).existsSync()) {
+      String contents = await File(filePath).readAsString();
+      Map content = jsonDecode(contents);
+      return content;
+    }
+    return {};
   }
 }

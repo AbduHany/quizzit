@@ -9,6 +9,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:quizzit/src/pages/home_page/home_page.dart';
 import 'package:quizzit/src/pages/profile_page/edit_profile.dart';
+import 'package:quizzit/src/services/data_services.dart';
 
 class ProfilePage extends StatefulWidget {
   const ProfilePage({super.key});
@@ -20,10 +21,19 @@ class ProfilePage extends StatefulWidget {
 }
 
 class _ProfilePageState extends State<ProfilePage> {
-  String firstName = "Darth";
-  String lastName = "Vader";
-  String gender = "Male";
-  String dateOfBirth = "03/08/1994";
+  Map<dynamic, dynamic> data = {};
+
+  @override
+  void initState() {
+    super.initState();
+
+    UserData.getData().then((value) {
+      setState(() {
+        data = value;
+      });
+    });
+  }
+
   List<Map<String, String>> stats = [
     {"Games": "80"},
     {"Total Points": "1032"},
@@ -61,7 +71,9 @@ class _ProfilePageState extends State<ProfilePage> {
                             PopupMenuItem(
                               onTap: () {
                                 Navigator.of(context).push(MaterialPageRoute(
-                                    builder: (context) => const EditProfile()));
+                                    builder: (context) => EditProfile(
+                                          data: data,
+                                        )));
                               },
                               child: const Text("Edit Profile"),
                             ),
@@ -165,7 +177,7 @@ class _ProfilePageState extends State<ProfilePage> {
                 Positioned(
                   top: MediaQuery.of(context).size.height * 0.2,
                   child: Text(
-                    "$firstName $lastName",
+                    "${data['firstName']} ${data['lastName']}",
                     style: GoogleFonts.poppins(
                       fontSize: 25,
                       color: Colors.white,
