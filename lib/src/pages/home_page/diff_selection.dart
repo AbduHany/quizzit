@@ -11,7 +11,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:quizzit/src/pages/quiz_page/quiz_page.dart';
 
 class DiffSelection extends StatelessWidget {
-  final List<String> categories;
+  final List categories;
   final int categoryIndex;
 
   const DiffSelection(
