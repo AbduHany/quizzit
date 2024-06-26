@@ -35,7 +35,14 @@ class RadioButtonItem extends StatelessWidget {
               onChanged: onChanged,
             ),
             const SizedBox(width: 8.0),
-            Text(value),
+            Expanded(
+              child: Text(
+                value,
+                maxLines: 3,
+                softWrap: true,
+                overflow: TextOverflow.clip,
+              ),
+            ),
           ],
         ),
       ),

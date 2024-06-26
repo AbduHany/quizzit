@@ -75,12 +75,12 @@ class DiffSelection extends StatelessWidget {
                   print(chosenCategory);
                   print(chosenDifficulty);
                 }
-                List<dynamic> currentQuiz = await QuizzitAPi.getQuizQuestions(
-                    chosenCategory, chosenDifficulty);
-
-                print(currentQuiz);
-                await Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => const QuizPage()));
+                await Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => QuizPage(
+                            category: chosenCategory,
+                            difficulty: chosenDifficulty)));
               },
               child: Text(
                 "Start Quiz!",
