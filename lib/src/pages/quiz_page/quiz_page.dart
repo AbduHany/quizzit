@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:quizzit/src/pages/quiz_page/radio_button_item.dart';
+import 'package:quizzit/src/pages/results_page/results_page.dart';
 import 'package:quizzit/src/services/api_service.dart';
 import 'package:rive/rive.dart';
 
@@ -56,6 +57,10 @@ class _QuizPageState extends State<QuizPage> {
     );
   }
 
+  String wrongCountText = "0";
+  double wrongCount = 0;
+  String correctCountText = "0";
+  double correctCount = 0;
   Widget currentQuestion(int index) {
     return Stack(
       fit: StackFit.expand,
@@ -109,19 +114,19 @@ class _QuizPageState extends State<QuizPage> {
           bottom: MediaQuery.of(context).size.height * 0.75,
           child: Container(
             color: Colors.yellow,
-            child: const Row(
+            child: Row(
               children: [
                 Expanded(
                   child: Padding(
-                    padding: EdgeInsets.all(8.0),
+                    padding: const EdgeInsets.all(8.0),
                     child: LinearProgressIndicator(
-                      value: 0.5,
+                      value: wrongCount,
                     ),
                   ),
                 ),
                 Padding(
-                  padding: EdgeInsets.all(8.0),
-                  child: Text("05"),
+                  padding: const EdgeInsets.all(8.0),
+                  child: Text(wrongCountText),
                 ),
               ],
             ),
@@ -134,17 +139,17 @@ class _QuizPageState extends State<QuizPage> {
           bottom: MediaQuery.of(context).size.height * 0.75,
           child: Container(
             color: Colors.yellow,
-            child: const Row(
+            child: Row(
               children: [
                 Padding(
-                  padding: EdgeInsets.all(8.0),
-                  child: Text("05"),
+                  padding: const EdgeInsets.all(8.0),
+                  child: Text(correctCountText),
                 ),
                 Expanded(
                   child: Padding(
-                    padding: EdgeInsets.all(8.0),
+                    padding: const EdgeInsets.all(8.0),
                     child: LinearProgressIndicator(
-                      value: 0.5,
+                      value: correctCount,
                     ),
                   ),
                 ),
@@ -188,12 +193,21 @@ class _QuizPageState extends State<QuizPage> {
                         value: element,
                         groupValue: _selectedValue,
                         onChanged: (value) {
+                          // print(qa[currentIndex]["correct_answer"]);
                           setState(() {
                             _selectedValue = value;
                             show = true;
-                            crt = qa[currentIndex]["correct_answer"] == value
-                                ? true
-                                : false;
+                            if (qa[currentIndex]["correct_answer"] == value) {
+                              crt = true;
+                              correctCount += 0.1;
+                              correctCountText =
+                                  '0${((correctCount * 10).ceil()).toString()}';
+                            } else {
+                              crt = false;
+                              wrongCount += 0.1;
+                              wrongCountText =
+                                  '0${((wrongCount * 10).ceil()).toString()}';
+                            }
                           });
                           Future.delayed(const Duration(milliseconds: 1500))
                               .then((_) {
@@ -205,8 +219,10 @@ class _QuizPageState extends State<QuizPage> {
                                 _shuffleAnswers();
                               } else {
                                 // Handle end of questions
-                                currentIndex = 0;
-                                _shuffleAnswers();
+                                Navigator.of(context).push(MaterialPageRoute(
+                                    builder: (context) => const ResultPage()));
+                                // currentIndex = 0;
+                                // _shuffleAnswers();
                               }
                             });
                           });

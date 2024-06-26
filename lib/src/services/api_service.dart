@@ -100,7 +100,6 @@ class QuizzitAPi {
       categorized = categorized
           .where((element) => element["difficulty"] == difficulty.toLowerCase())
           .toList();
-      print("categorized");
       categorized.shuffle();
       return categorized.take(10).toList();
     }

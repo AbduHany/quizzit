@@ -9,7 +9,6 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:quizzit/src/pages/quiz_page/quiz_page.dart';
-import 'package:quizzit/src/services/api_service.dart';
 
 class DiffSelection extends StatelessWidget {
   final List<String> categories;
