@@ -3,7 +3,7 @@ import 'dart:io';
 
 import 'package:path_provider/path_provider.dart';
 import 'package:quizzit/src/utils/constants.dart';
-import 'package:random_name_generator/random_name_generator.dart';
+import 'package:unique_name_generator/unique_name_generator.dart';
 
 class UserData {
   static Future<bool> firstTime() async {
@@ -12,9 +12,17 @@ class UserData {
     if (File(filePath).existsSync()) {
       return false;
     } else {
+      var nameGenerator = UniqueNameGenerator(
+        dictionaries: [adjectives, animals],
+        style: NameStyle.capital,
+        separator: ' ',
+      );
+      String fullName = nameGenerator.generate();
+      String firstName = fullName.split(' ')[0];
+      String lastName = fullName.split(' ')[1];
       File(filePath).writeAsStringSync(jsonEncode({
-        "firstName": RandomNames(Zone.egypt).name(),
-        "lastName": RandomNames(Zone.egypt).manName(),
+        "firstName": firstName,
+        "lastName": lastName,
         "gender": "Male",
         "birthDate": DateTime.now().toString().substring(0, 10),
       }));
