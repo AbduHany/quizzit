@@ -5,9 +5,14 @@ import 'package:quizzit/src/services/api_service.dart';
 import 'package:rive/rive.dart';
 
 class QuizPage extends StatefulWidget {
-  const QuizPage({super.key, required this.category, required this.difficulty});
+  const QuizPage(
+      {super.key,
+      required this.category,
+      required this.difficulty,
+      this.quizQuestions = const []});
   final String category;
   final String difficulty;
+  final List<dynamic> quizQuestions;
 
   @override
   State<QuizPage> createState() => _QuizPageState();
@@ -18,6 +23,10 @@ class _QuizPageState extends State<QuizPage> {
   int currentIndex = 0;
   String? _selectedValue;
   List<String> _shuffledAnswers = [];
+  String wrongCountText = "0";
+  double wrongCount = 0;
+  String correctCountText = "0";
+  double correctCount = 0;
 
   @override
   void initState() {
@@ -26,7 +35,12 @@ class _QuizPageState extends State<QuizPage> {
   }
 
   Future<void> fetchQuizQuestions() async {
-    qa = await QuizzitAPi.getQuizQuestions(widget.category, widget.difficulty);
+    if (widget.quizQuestions.isNotEmpty) {
+      qa = widget.quizQuestions;
+    } else {
+      qa =
+          await QuizzitAPi.getQuizQuestions(widget.category, widget.difficulty);
+    }
     if (qa.isNotEmpty) {
       _shuffleAnswers();
     }
@@ -57,10 +71,6 @@ class _QuizPageState extends State<QuizPage> {
     );
   }
 
-  String wrongCountText = "0";
-  double wrongCount = 0;
-  String correctCountText = "0";
-  double correctCount = 0;
   Widget currentQuestion(int index) {
     return Stack(
       fit: StackFit.expand,
@@ -71,9 +81,10 @@ class _QuizPageState extends State<QuizPage> {
           top: MediaQuery.of(context).size.height * 0.05,
           bottom: MediaQuery.of(context).size.height * 0.70,
           child: Container(
-            decoration: const BoxDecoration(
-              borderRadius: BorderRadius.all(Radius.circular(25)),
-              color: Colors.blue,
+            decoration: BoxDecoration(
+              border: Border.all(width: 1, color: Colors.black),
+              borderRadius: const BorderRadius.all(Radius.circular(25)),
+              color: Colors.grey,
             ),
           ),
         ),
@@ -83,10 +94,10 @@ class _QuizPageState extends State<QuizPage> {
           top: MediaQuery.of(context).size.height * 0.20,
           bottom: MediaQuery.of(context).size.height * 0.55,
           child: Container(
-            decoration: const BoxDecoration(
-              borderRadius: BorderRadius.all(Radius.circular(25)),
-              color: Colors.green,
-            ),
+            decoration: BoxDecoration(
+                borderRadius: const BorderRadius.all(Radius.circular(25)),
+                color: Colors.grey,
+                border: Border.all(color: Colors.white, width: 1)),
           ),
         ),
         Positioned(
@@ -97,7 +108,7 @@ class _QuizPageState extends State<QuizPage> {
           child: Container(
             decoration: const BoxDecoration(
               borderRadius: BorderRadius.all(Radius.circular(25)),
-              color: Colors.deepPurpleAccent,
+              // color: Colors.deepPurpleAccent,
             ),
             child: const CircleAvatar(
               child: Icon(
@@ -112,24 +123,27 @@ class _QuizPageState extends State<QuizPage> {
           left: MediaQuery.of(context).size.width * .6,
           top: MediaQuery.of(context).size.height * 0.20,
           bottom: MediaQuery.of(context).size.height * 0.75,
-          child: Container(
-            color: Colors.yellow,
-            child: Row(
-              children: [
-                Expanded(
-                  child: Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: LinearProgressIndicator(
-                      value: wrongCount,
-                    ),
+          child: Row(
+            children: [
+              Expanded(
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: LinearProgressIndicator(
+                    value: wrongCount,
+                    color: Colors.red,
+                    backgroundColor: Colors.red[100],
                   ),
                 ),
-                Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Text(wrongCountText),
+              ),
+              Padding(
+                padding: const EdgeInsets.only(right: 20),
+                child: Text(
+                  wrongCountText,
+                  style: const TextStyle(
+                      color: Colors.red, fontWeight: FontWeight.bold),
                 ),
-              ],
-            ),
+              ),
+            ],
           ),
         ),
         Positioned(
@@ -137,24 +151,27 @@ class _QuizPageState extends State<QuizPage> {
           left: MediaQuery.of(context).size.width * .1,
           top: MediaQuery.of(context).size.height * 0.20,
           bottom: MediaQuery.of(context).size.height * 0.75,
-          child: Container(
-            color: Colors.yellow,
-            child: Row(
-              children: [
-                Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Text(correctCountText),
+          child: Row(
+            children: [
+              Padding(
+                padding: const EdgeInsets.only(left: 20),
+                child: Text(
+                  correctCountText,
+                  style: TextStyle(
+                      color: Colors.green[700], fontWeight: FontWeight.bold),
                 ),
-                Expanded(
-                  child: Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: LinearProgressIndicator(
-                      value: correctCount,
-                    ),
+              ),
+              Expanded(
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: LinearProgressIndicator(
+                    value: correctCount,
+                    backgroundColor: Colors.green[200],
+                    color: Colors.green,
                   ),
                 ),
-              ],
-            ),
+              ),
+            ],
           ),
         ),
         Positioned(
@@ -165,14 +182,26 @@ class _QuizPageState extends State<QuizPage> {
           child: Container(
             decoration: const BoxDecoration(
               borderRadius: BorderRadius.all(Radius.circular(25)),
-              color: Colors.deepPurpleAccent,
+              // color: Colors.deepPurpleAccent,
             ),
             child: Container(
               padding: const EdgeInsets.all(10),
               child: Column(
                 children: [
-                  const Center(child: Text("data")),
-                  Expanded(child: Text(qa[currentIndex]["question"])),
+                  Container(
+                      margin:
+                          EdgeInsets.symmetric(vertical: 5.0, horizontal: 1),
+                      child:
+                          Center(child: Text("Question ${currentIndex}/10"))),
+                  Expanded(
+                      child: Text(
+                    qa[currentIndex]["question"],
+                    softWrap: true,
+                    // overflow: TextOverflow.clip,
+                    maxLines: 5,
+
+                    style: TextStyle(fontSize: 20),
+                  )),
                 ],
               ),
             ),
@@ -184,7 +213,7 @@ class _QuizPageState extends State<QuizPage> {
           top: MediaQuery.of(context).size.height * 0.48,
           bottom: MediaQuery.of(context).size.height * 0.05,
           child: Container(
-            color: Colors.amber[50],
+            // color: Colors.amber[50],
             child: Column(
               children: <Widget>[
                 ..._shuffledAnswers
@@ -220,7 +249,11 @@ class _QuizPageState extends State<QuizPage> {
                               } else {
                                 // Handle end of questions
                                 Navigator.of(context).push(MaterialPageRoute(
-                                    builder: (context) => const ResultPage()));
+                                    builder: (context) => ResultPage(
+                                          quizQuestions: qa,
+                                          correctCount: correctCount,
+                                          wrongCount: wrongCount,
+                                        )));
                                 // currentIndex = 0;
                                 // _shuffleAnswers();
                               }

@@ -29,19 +29,20 @@ class RadioButtonItem extends StatelessWidget {
         ),
         child: Row(
           children: <Widget>[
-            Radio<String>(
-              value: value,
-              groupValue: groupValue,
-              onChanged: onChanged,
-            ),
-            const SizedBox(width: 8.0),
             Expanded(
               child: Text(
                 value,
                 maxLines: 3,
                 softWrap: true,
                 overflow: TextOverflow.clip,
+                style: TextStyle(fontWeight: FontWeight.bold),
               ),
+            ),
+            const SizedBox(width: 8.0),
+            Radio<String>(
+              value: value,
+              groupValue: groupValue,
+              onChanged: onChanged,
             ),
           ],
         ),

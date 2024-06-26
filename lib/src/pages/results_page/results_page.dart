@@ -8,11 +8,21 @@ Description:
 */
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:quizzit/src/pages/home_page/home_page.dart';
+import 'package:quizzit/src/pages/quiz_page/quiz_page.dart';
 import 'package:quizzit/src/pages/results_page/score_stack.dart';
+import 'package:share_plus/share_plus.dart';
 
 class ResultPage extends StatefulWidget {
-  const ResultPage({super.key});
-
+  const ResultPage({
+    super.key,
+    required this.quizQuestions,
+    required this.correctCount,
+    required this.wrongCount,
+  });
+  final List<dynamic> quizQuestions;
+  final double correctCount;
+  final double wrongCount;
   @override
   State<ResultPage> createState() => _ResultPageState();
 }
@@ -35,7 +45,10 @@ class _ResultPageState extends State<ResultPage> {
         ),
         child: Column(
           children: [
-            const ScoreStack(),
+            ScoreStack(
+                quizQuestions: widget.quizQuestions,
+                correctCount: widget.correctCount,
+                wrongCount: widget.wrongCount),
             // bottom panel with the icons
             Container(
               margin: const EdgeInsets.only(top: 150),
@@ -54,7 +67,33 @@ class _ResultPageState extends State<ResultPage> {
                               borderRadius: BorderRadius.circular(50)),
                           child: IconButton(
                             iconSize: 30,
-                            onPressed: () {},
+                            onPressed: () {
+                              switch (bottomIcons[index].keys.first) {
+                                case "Replay":
+                                  Navigator.of(context).pushAndRemoveUntil(
+                                      MaterialPageRoute(
+                                          builder: (context) => QuizPage(
+                                              category: "",
+                                              difficulty: "",
+                                              quizQuestions:
+                                                  widget.quizQuestions)),
+                                      (route) => false);
+                                  break;
+                                case "Home":
+                                  Navigator.of(context).pushAndRemoveUntil(
+                                      MaterialPageRoute(
+                                          builder: (context) =>
+                                              const HomePage()),
+                                      (route) => false);
+                                  break;
+                                case "Share":
+                                  Share.share(
+                                      "I scored ${(widget.correctCount * 100).toInt()}%, check out quizzit App");
+                                  print("share");
+                                  break;
+                                default:
+                              }
+                            },
                             icon: bottomIcons[index].values.first,
                           ),
                         ),

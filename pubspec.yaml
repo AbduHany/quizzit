@@ -46,6 +46,8 @@ dependencies:
   path_provider: ^2.1.3
   unique_name_generator: ^1.0.0
 
+  # for share button in results page
+  share_plus: ^9.0.0
 
 
 dev_dependencies:

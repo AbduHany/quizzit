@@ -2,8 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class ScoreStack extends StatefulWidget {
-  const ScoreStack({super.key});
-
+  const ScoreStack(
+      {super.key,
+      required this.quizQuestions,
+      required this.correctCount,
+      required this.wrongCount});
+  final List<dynamic> quizQuestions;
+  final double correctCount;
+  final double wrongCount;
   @override
   State<ScoreStack> createState() => _ScoreStackState();
 }
@@ -13,9 +19,9 @@ class _ScoreStackState extends State<ScoreStack> {
   Widget build(BuildContext context) {
     List<Map<String, int>> scoreElems = [
       {"completion": 100},
-      {"questions": 20},
-      {"correct": 13},
-      {"wrong": 7},
+      {"questions": 10},
+      {"correct": (widget.correctCount * 10).toInt()},
+      {"wrong": (widget.wrongCount * 10).toInt()},
     ];
     return Stack(
       clipBehavior: Clip.none,
@@ -55,7 +61,7 @@ class _ScoreStackState extends State<ScoreStack> {
                 style: GoogleFonts.poppins(fontSize: 20),
               ),
               subtitle: Text(
-                "80%",
+                "${(widget.correctCount * 100).toInt()}%",
                 textAlign: TextAlign.center,
                 style: GoogleFonts.poppins(
                   fontSize: 60,
