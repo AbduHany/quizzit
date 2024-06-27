@@ -52,3 +52,32 @@ class UserData {
     return {};
   }
 }
+
+class StatsData {
+  static Future<bool> firstTime() async {
+    String filePath =
+        (await getApplicationDocumentsDirectory()).path + statData;
+    if (File(filePath).existsSync()) {
+      return false;
+    } else {
+      File(filePath).writeAsStringSync(jsonEncode({
+        "StartedQuiz": 0,
+        "CompletedQuiz": 0,
+        "CorrectAnswers": 0,
+        "WrongAnswers": 0,
+      }));
+      return true;
+    }
+  }
+
+  static Future<Map<dynamic, dynamic>> getData() async {
+    String filePath =
+        (await getApplicationDocumentsDirectory()).path + statData;
+    if (File(filePath).existsSync()) {
+      String contents = await File(filePath).readAsString();
+      Map content = jsonDecode(contents);
+      return content;
+    }
+    return {};
+  }
+}

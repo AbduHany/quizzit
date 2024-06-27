@@ -23,26 +23,45 @@ class ProfilePage extends StatefulWidget {
 
 class _ProfilePageState extends State<ProfilePage> {
   Map<dynamic, dynamic> data = {};
+  Map<dynamic, dynamic> statsMap = {};
+  List<Map<dynamic, dynamic>> statsList = [];
 
   @override
   void initState() {
     super.initState();
-
     UserData.getData().then((value) {
       setState(() {
         data = value;
       });
     });
+    StatsData.getData().then((value) {
+      statsMap = value;
+      int startedQuiz = statsMap["StartedQuiz"];
+      int completedQuiz = statsMap["CompletedQuiz"];
+      int correctAnswers = statsMap["CorrectAnswers"];
+      int wrongAnswers = statsMap["WrongAnswers"];
+      int totalAnswers = correctAnswers + wrongAnswers;
+      setState(() {
+        statsList = [
+          {"Quiz Started": startedQuiz.toString()},
+          {"Quiz Completed": completedQuiz.toString()},
+          {"Total Points": "${correctAnswers * 10}"},
+          {
+            "Completion Rate":
+                "${((completedQuiz / startedQuiz) * 100).toStringAsFixed(0)}%"
+          },
+          {
+            "Correct Answers":
+                "${(correctAnswers / totalAnswers * 100).toStringAsFixed(0)}%"
+          },
+          {
+            "Incorrect Answers":
+                "${(wrongAnswers / totalAnswers * 100).toStringAsFixed(0)}%"
+          },
+        ];
+      });
+    });
   }
-
-  List<Map<String, String>> stats = [
-    {"Games": "80"},
-    {"Total Points": "1032"},
-    {"Best Time": "13s"},
-    {"Completion Rate": "81%"},
-    {"Correct Answers": "72%"},
-    {"Incorrect Answers": "28%"},
-  ];
 
   @override
   Widget build(BuildContext context) {
@@ -247,7 +266,7 @@ class _ProfilePageState extends State<ProfilePage> {
                           shrinkWrap: true,
                           crossAxisCount: 3,
                           childAspectRatio: 1,
-                          children: List.generate(stats.length, (i) {
+                          children: List.generate(statsList.length, (i) {
                             return Container(
                               decoration: BoxDecoration(
                                   color: Colors.white,
@@ -257,16 +276,18 @@ class _ProfilePageState extends State<ProfilePage> {
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   Text(
-                                    stats[i].values.first,
+                                    statsList[i].values.first,
                                     textAlign: TextAlign.center,
                                     style: GoogleFonts.poppins(
                                         fontSize: 30,
                                         fontWeight: FontWeight.bold),
                                   ),
                                   Text(
-                                    stats[i].keys.first,
+                                    statsList[i].keys.first,
                                     textAlign: TextAlign.center,
-                                    style: GoogleFonts.poppins(),
+                                    style: GoogleFonts.poppins(
+                                        fontSize: 10,
+                                        fontWeight: FontWeight.bold),
                                   )
                                 ],
                               ),

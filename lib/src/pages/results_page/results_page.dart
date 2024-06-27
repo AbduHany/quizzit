@@ -89,7 +89,6 @@ class _ResultPageState extends State<ResultPage> {
                                 case "Share":
                                   Share.share(
                                       "I scored ${(widget.correctCount * 100).toInt()}%, check out quizzit App");
-                                  print("share");
                                   break;
                                 default:
                               }

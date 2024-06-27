@@ -64,6 +64,8 @@ class _SplashScreenState extends State<SplashScreen> {
     first time the app is run.
     */
     UserData.firstTime();
+    // Creates the statData.json file and with values of 0 for first time.
+    StatsData.firstTime();
     QuizzitAPi.status().then((onValue) {
       if (onValue.statusCode == 200) {
         if (kDebugMode) print("service is online");

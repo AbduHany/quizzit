@@ -1,7 +1,12 @@
+import 'dart:convert';
+import 'dart:io';
+
 import 'package:flutter/material.dart';
+import 'package:path_provider/path_provider.dart';
 import 'package:quizzit/src/pages/quiz_page/radio_button_item.dart';
 import 'package:quizzit/src/pages/results_page/results_page.dart';
 import 'package:quizzit/src/services/api_service.dart';
+import 'package:quizzit/src/utils/constants.dart';
 import 'package:rive/rive.dart';
 
 class QuizPage extends StatefulWidget {
@@ -28,10 +33,25 @@ class _QuizPageState extends State<QuizPage> {
   String correctCountText = "0";
   double correctCount = 0;
 
+  Map<String, dynamic> stats = {};
+  String statFile = "";
+
   @override
   void initState() {
     super.initState();
     fetchQuizQuestions();
+
+    () async {
+      statFile = (await getApplicationDocumentsDirectory()).path + statData;
+      if (File(statFile).existsSync()) {
+        // check if stat file exists
+        String contents = await File(statFile).readAsString();
+        Map<String, dynamic> statsFromFile = jsonDecode(contents);
+        stats = statsFromFile;
+        stats['StartedQuiz'] += 1;
+        File(statFile).writeAsStringSync(jsonEncode(stats));
+      }
+    }();
   }
 
   Future<void> fetchQuizQuestions() async {
@@ -81,9 +101,8 @@ class _QuizPageState extends State<QuizPage> {
           top: MediaQuery.of(context).size.height * 0.05,
           bottom: MediaQuery.of(context).size.height * 0.70,
           child: Container(
-            decoration: BoxDecoration(
-              border: Border.all(width: 1, color: Colors.black),
-              borderRadius: const BorderRadius.all(Radius.circular(25)),
+            decoration: const BoxDecoration(
+              borderRadius: BorderRadius.all(Radius.circular(25)),
               color: Colors.grey,
             ),
           ),
@@ -111,6 +130,7 @@ class _QuizPageState extends State<QuizPage> {
               // color: Colors.deepPurpleAccent,
             ),
             child: const CircleAvatar(
+              backgroundColor: Colors.white,
               child: Icon(
                 Icons.alarm_sharp,
                 size: 36,
@@ -189,10 +209,10 @@ class _QuizPageState extends State<QuizPage> {
               child: Column(
                 children: [
                   Container(
-                      margin:
-                          EdgeInsets.symmetric(vertical: 5.0, horizontal: 1),
-                      child:
-                          Center(child: Text("Question ${currentIndex}/10"))),
+                      margin: const EdgeInsets.symmetric(
+                          vertical: 5.0, horizontal: 1),
+                      child: Center(
+                          child: Text("Question ${currentIndex + 1}/10"))),
                   Expanded(
                       child: Text(
                     qa[currentIndex]["question"],
@@ -200,7 +220,7 @@ class _QuizPageState extends State<QuizPage> {
                     // overflow: TextOverflow.clip,
                     maxLines: 5,
 
-                    style: TextStyle(fontSize: 20),
+                    style: const TextStyle(fontSize: 20),
                   )),
                 ],
               ),
@@ -212,59 +232,63 @@ class _QuizPageState extends State<QuizPage> {
           left: MediaQuery.of(context).size.width * .1,
           top: MediaQuery.of(context).size.height * 0.48,
           bottom: MediaQuery.of(context).size.height * 0.05,
-          child: Container(
-            // color: Colors.amber[50],
-            child: Column(
-              children: <Widget>[
-                ..._shuffledAnswers
-                    .map(
-                      (element) => RadioButtonItem(
-                        value: element,
-                        groupValue: _selectedValue,
-                        onChanged: (value) {
-                          // print(qa[currentIndex]["correct_answer"]);
+          child: Column(
+            children: <Widget>[
+              ..._shuffledAnswers
+                  .map(
+                    (element) => RadioButtonItem(
+                      value: element,
+                      groupValue: _selectedValue,
+                      onChanged: (value) {
+                        // print(qa[currentIndex]["correct_answer"]);
+                        setState(() {
+                          _selectedValue = value;
+                          show = true;
+                          if (qa[currentIndex]["correct_answer"] == value) {
+                            crt = true;
+                            correctCount += 0.1;
+                            correctCountText =
+                                '0${((correctCount * 10).ceil()).toString()}';
+                            stats['CorrectAnswers'] += 1;
+                            File(statFile).writeAsStringSync(jsonEncode(stats));
+                          } else {
+                            crt = false;
+                            wrongCount += 0.1;
+                            wrongCountText =
+                                '0${((wrongCount * 10).ceil()).toString()}';
+                            stats['WrongAnswers'] += 1;
+                            File(statFile).writeAsStringSync(jsonEncode(stats));
+                          }
+                        });
+                        Future.delayed(const Duration(milliseconds: 1500))
+                            .then((_) {
                           setState(() {
-                            _selectedValue = value;
-                            show = true;
-                            if (qa[currentIndex]["correct_answer"] == value) {
-                              crt = true;
-                              correctCount += 0.1;
-                              correctCountText =
-                                  '0${((correctCount * 10).ceil()).toString()}';
+                            show = false;
+                            currentIndex += 1;
+                            _selectedValue = null; // Reset the selected value
+                            if (currentIndex < qa.length) {
+                              _shuffleAnswers();
                             } else {
-                              crt = false;
-                              wrongCount += 0.1;
-                              wrongCountText =
-                                  '0${((wrongCount * 10).ceil()).toString()}';
+                              stats['CompletedQuiz'] += 1;
+                              File(statFile)
+                                  .writeAsStringSync(jsonEncode(stats));
+                              // Handle end of questions
+                              Navigator.of(context).push(MaterialPageRoute(
+                                  builder: (context) => ResultPage(
+                                        quizQuestions: qa,
+                                        correctCount: correctCount,
+                                        wrongCount: wrongCount,
+                                      )));
+                              // currentIndex = 0;
+                              // _shuffleAnswers();
                             }
                           });
-                          Future.delayed(const Duration(milliseconds: 1500))
-                              .then((_) {
-                            setState(() {
-                              show = false;
-                              currentIndex += 1;
-                              _selectedValue = null; // Reset the selected value
-                              if (currentIndex < qa.length) {
-                                _shuffleAnswers();
-                              } else {
-                                // Handle end of questions
-                                Navigator.of(context).push(MaterialPageRoute(
-                                    builder: (context) => ResultPage(
-                                          quizQuestions: qa,
-                                          correctCount: correctCount,
-                                          wrongCount: wrongCount,
-                                        )));
-                                // currentIndex = 0;
-                                // _shuffleAnswers();
-                              }
-                            });
-                          });
-                        },
-                      ),
-                    )
-                    .toList(),
-              ],
-            ),
+                        });
+                      },
+                    ),
+                  )
+                  .toList(),
+            ],
           ),
         ),
         answered()
