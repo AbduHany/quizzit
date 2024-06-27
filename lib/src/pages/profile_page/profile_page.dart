@@ -5,12 +5,17 @@ Description:
   This Flutter file contains the user's profile page which shows the user's
   profile picture, a settings icon, and various stats for the user.
 */
+import 'dart:convert';
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:path_provider/path_provider.dart';
 import 'package:quizzit/src/pages/home_page/home_page.dart';
 import 'package:quizzit/src/pages/profile_page/edit_profile.dart';
 import 'package:quizzit/src/services/data_services.dart';
+import 'package:quizzit/src/utils/constants.dart';
 
 class ProfilePage extends StatefulWidget {
   const ProfilePage({super.key});
@@ -48,15 +53,15 @@ class _ProfilePageState extends State<ProfilePage> {
           {"Total Points": "${correctAnswers * 10}"},
           {
             "Completion Rate":
-                "${((completedQuiz / startedQuiz) * 100).toStringAsFixed(0)}%"
+                "${startedQuiz == 0 ? 0 : ((completedQuiz / startedQuiz) * 100).toStringAsFixed(0)}%"
           },
           {
             "Correct Answers":
-                "${(correctAnswers / totalAnswers * 100).toStringAsFixed(0)}%"
+                "${totalAnswers == 0 ? 0 : (correctAnswers / totalAnswers * 100).toStringAsFixed(0)}%"
           },
           {
             "Incorrect Answers":
-                "${(wrongAnswers / totalAnswers * 100).toStringAsFixed(0)}%"
+                "${totalAnswers == 0 ? 0 : (wrongAnswers / totalAnswers * 100).toStringAsFixed(0)}%"
           },
         ];
       });
@@ -180,16 +185,29 @@ class _ProfilePageState extends State<ProfilePage> {
                                                                   "No")),
                                                           MaterialButton(
                                                               // Adding the logic of resetting the Profile stats
-                                                              onPressed: () {},
+                                                              onPressed: () {
+                                                                resetStats()
+                                                                    .then(
+                                                                  (value) {
+                                                                    setState(
+                                                                        () {
+                                                                      statsList =
+                                                                          value;
+                                                                    });
+                                                                  },
+                                                                );
+                                                                Navigator.of(
+                                                                        context)
+                                                                    .pop();
+                                                              },
                                                               child: const Text(
-                                                                "Yes",
-                                                                style: TextStyle(
-                                                                    color: Colors
-                                                                        .red,
-                                                                    fontWeight:
-                                                                        FontWeight
-                                                                            .bold),
-                                                              ))
+                                                                  "Yes",
+                                                                  style: TextStyle(
+                                                                      color: Colors
+                                                                          .red,
+                                                                      fontWeight:
+                                                                          FontWeight
+                                                                              .bold)))
                                                         ])
                                                   ],
                                                 ),
@@ -330,4 +348,22 @@ class _ProfilePageState extends State<ProfilePage> {
       ),
     );
   }
+}
+
+Future<List<Map<String, String>>> resetStats() async {
+  String statFile = (await getApplicationDocumentsDirectory()).path + statData;
+  File(statFile).writeAsStringSync(jsonEncode({
+    "StartedQuiz": 0,
+    "CompletedQuiz": 0,
+    "CorrectAnswers": 0,
+    "WrongAnswers": 0
+  }));
+  return [
+    {"Quiz Started": "0"},
+    {"Quiz Completed": "0"},
+    {"Total Points": "0"},
+    {"Completion Rate": "0%"},
+    {"Correct Answers": "0%"},
+    {"Incorrect Answers": "0%"},
+  ];
 }

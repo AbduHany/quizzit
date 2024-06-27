@@ -35,7 +35,7 @@ class RadioButtonItem extends StatelessWidget {
                 maxLines: 3,
                 softWrap: true,
                 overflow: TextOverflow.clip,
-                style: TextStyle(fontWeight: FontWeight.bold),
+                style: const TextStyle(fontWeight: FontWeight.bold),
               ),
             ),
             const SizedBox(width: 8.0),
