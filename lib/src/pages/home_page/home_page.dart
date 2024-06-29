@@ -27,6 +27,20 @@ class _HomePageState extends State<HomePage> {
   String userName = "";
   List categories = [];
   List questions = [];
+  /*
+  Film Icon Attribution: Film icons created by BZZRINCANTATION - Flaticon
+  Geography Icon Attribution: Geography icons created by Freepik - Flaticon
+  History Icon Attribution: History icons created by Freepik - Flaticon
+  Sports Icon Attribution: Sports icons created by Freepik - Flaticon
+  General Knowledge Icon Attribution: General Knowledge icons created by Freepik - Flaticon
+  */
+  Map icons = {
+    'Geography': 'assets/icons/globe.png',
+    'History': 'assets/icons/history.png',
+    'Sports': 'assets/icons/sports.png',
+    'General Knowledge': 'assets/icons/knowledge.png',
+    'Entertainment: Film': 'assets/icons/film.png',
+  };
 
   @override
   void initState() {
@@ -145,44 +159,41 @@ class _HomePageState extends State<HomePage> {
                       width: (screenWidth - 20) / 2,
                       height: (screenWidth - 20) / 2,
                       padding: const EdgeInsets.all(10),
-                      child: MaterialButton(
-                          elevation: 50,
-                          shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(20),
-                              side: const BorderSide(
-                                  width: 1, color: Colors.grey)),
-                          onPressed: () {
-                            showDialog(
-                                context: context,
-                                builder: (context) {
-                                  return DiffSelection(
-                                      categories: categories,
-                                      categoryIndex: index);
-                                });
-                          },
-                          child: Column(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              Container(
-                                margin: const EdgeInsets.only(bottom: 10),
-                                decoration: BoxDecoration(
-                                    color: Colors.grey,
-                                    borderRadius: BorderRadius.circular(10)),
-                                height: 80,
-                                width: 100,
-                                child: const Icon(
-                                  Icons.question_mark,
-                                  color: Colors.white,
+                      child: Card(
+                        elevation: 10,
+                        child: MaterialButton(
+                            onPressed: () {
+                              showDialog(
+                                  context: context,
+                                  builder: (context) {
+                                    return DiffSelection(
+                                        categories: categories,
+                                        categoryIndex: index);
+                                  });
+                            },
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Container(
+                                  margin: const EdgeInsets.only(bottom: 10),
+                                  decoration: BoxDecoration(
+                                      borderRadius: BorderRadius.circular(10)),
+                                  height:
+                                      MediaQuery.of(context).size.height * 0.1,
+                                  width:
+                                      MediaQuery.of(context).size.width * 0.2,
+                                  child: Image.asset(icons[categories[index]]!),
                                 ),
-                              ),
-                              Text(
-                                categories[index],
-                                textAlign: TextAlign.center,
-                                style: GoogleFonts.poppins(
-                                    fontSize: 12, fontWeight: FontWeight.w600),
-                              )
-                            ],
-                          )),
+                                Text(
+                                  categories[index],
+                                  textAlign: TextAlign.center,
+                                  style: GoogleFonts.poppins(
+                                      fontSize: 12,
+                                      fontWeight: FontWeight.w600),
+                                )
+                              ],
+                            )),
+                      ),
                     );
                   })
                 ],
