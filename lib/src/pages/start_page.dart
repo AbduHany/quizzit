@@ -8,6 +8,7 @@ Description:
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:quizzit/src/pages/home_page/home_page.dart';
+import 'package:rive/rive.dart';
 
 class StartPage extends StatefulWidget {
   const StartPage({super.key});
@@ -21,7 +22,7 @@ class _StartPageState extends State<StartPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        toolbarHeight: MediaQuery.of(context).size.height * 0.3,
+        toolbarHeight: MediaQuery.of(context).size.height * 0.2,
         centerTitle: true,
         title: ListTile(
           title: Text(
@@ -47,19 +48,13 @@ class _StartPageState extends State<StartPage> {
       body: Column(
         children: [
           Container(
-            decoration: BoxDecoration(
-                color: Colors.grey, borderRadius: BorderRadius.circular(50)),
-            alignment: Alignment.center,
-            margin: const EdgeInsets.symmetric(horizontal: 50),
-            height: MediaQuery.of(context).size.height * 0.4,
-            child: const Text(
-              "<LOGOIMAGEHERE>",
-              style: TextStyle(fontWeight: FontWeight.bold),
-            ),
-          ),
+              alignment: Alignment.center,
+              margin: const EdgeInsets.symmetric(horizontal: 10),
+              height: MediaQuery.of(context).size.height * 0.6,
+              child: const RiveAnimation.asset('assets/logo.riv')),
           Container(
             margin: EdgeInsets.only(
-                top: (MediaQuery.of(context).size.height * 0.1)),
+                top: (MediaQuery.of(context).size.height * 0.05)),
             child: MaterialButton(
               height: MediaQuery.of(context).size.height * 0.07,
               minWidth: MediaQuery.of(context).size.width * 0.6,
