@@ -81,7 +81,7 @@ class _ProfilePageState extends State<ProfilePage> {
               builder: (context) {
                 return AlertDialog(
                   content: SizedBox(
-                    height: MediaQuery.of(context).size.height * 0.09,
+                    height: MediaQuery.of(context).size.height * 0.11,
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
@@ -238,12 +238,12 @@ class _ProfilePageState extends State<ProfilePage> {
                     decoration: BoxDecoration(
                         color: Theme.of(context).colorScheme.primary,
                         borderRadius: BorderRadius.circular(30)),
-                    height: MediaQuery.of(context).size.height * 0.63,
+                    height: MediaQuery.of(context).size.height * 0.60,
                     width: MediaQuery.of(context).size.width,
                   ),
                   //Profile Picture
                   Positioned(
-                    top: -75,
+                    top: MediaQuery.of(context).size.height * -0.1,
                     child: Container(
                       decoration: BoxDecoration(
                           border: Border.all(
@@ -251,18 +251,18 @@ class _ProfilePageState extends State<ProfilePage> {
                               width: 5),
                           borderRadius: BorderRadius.circular(100),
                           color: Colors.white),
-                      height: 200,
-                      width: 200,
-                      child: const Icon(
+                      height: MediaQuery.of(context).size.height * .2,
+                      width: MediaQuery.of(context).size.height * .2,
+                      child: Icon(
                         Icons.person_4_rounded,
-                        size: 90,
+                        size: MediaQuery.of(context).size.height * .1,
                         color: Colors.black,
                       ),
                     ),
                   ),
                   // User's first and last name
                   Positioned(
-                    top: MediaQuery.of(context).size.height * 0.2,
+                    top: MediaQuery.of(context).size.height * 0.1,
                     child: Text(
                       "${data['firstName']} ${data['lastName']}",
                       style: GoogleFonts.poppins(
@@ -276,7 +276,7 @@ class _ProfilePageState extends State<ProfilePage> {
                   stats are being read from the variable stats declared above.
                   */
                   Positioned(
-                      top: MediaQuery.of(context).size.height * 0.25,
+                      top: MediaQuery.of(context).size.height * 0.20,
                       child: SizedBox(
                         width: MediaQuery.of(context).size.width * 0.9,
                         child: GridView.count(
@@ -321,7 +321,7 @@ class _ProfilePageState extends State<ProfilePage> {
 
         // bottom navigation bar
         bottomNavigationBar: SizedBox(
-          height: 50,
+          height: MediaQuery.of(context).size.height * .09,
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [

@@ -24,7 +24,7 @@ class DiffSelection extends StatelessWidget {
     return AlertDialog(
       alignment: Alignment.center,
       content: SizedBox(
-        height: MediaQuery.of(context).size.height * 0.19,
+        height: MediaQuery.of(context).size.height * 0.25,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
@@ -36,8 +36,8 @@ class DiffSelection extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                   color: Theme.of(context).colorScheme.primary),
             ),
-            const SizedBox(
-              height: 5,
+            SizedBox(
+              height: MediaQuery.of(context).size.height * 0.01,
             ),
             DropdownMenu(
               initialSelection: "Easy",
@@ -53,8 +53,8 @@ class DiffSelection extends StatelessWidget {
               ],
               width: MediaQuery.of(context).size.width * 0.4,
             ),
-            const SizedBox(
-              height: 10,
+            SizedBox(
+              height: MediaQuery.of(context).size.height * 0.01,
             ),
             /*
             START QUIZ BUTTON:

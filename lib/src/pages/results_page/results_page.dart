@@ -51,7 +51,8 @@ class _ResultPageState extends State<ResultPage> {
                 wrongCount: widget.wrongCount),
             // bottom panel with the icons
             Container(
-              margin: const EdgeInsets.only(top: 150),
+              margin: EdgeInsets.only(
+                  top: MediaQuery.of(context).size.height * 0.18),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [

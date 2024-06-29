@@ -19,8 +19,8 @@ class RadioButtonItem extends StatelessWidget {
         onChanged(value);
       },
       child: Container(
-        margin: const EdgeInsets.all(8.0),
-        padding: const EdgeInsets.all(12.0),
+        margin: EdgeInsets.all(MediaQuery.of(context).size.height * .009),
+        padding: EdgeInsets.all(MediaQuery.of(context).size.height * .01),
         decoration: BoxDecoration(
           border: Border.all(
             color: groupValue == value ? Colors.blue : Colors.grey,

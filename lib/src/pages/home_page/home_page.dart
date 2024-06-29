@@ -79,7 +79,7 @@ class _HomePageState extends State<HomePage> {
               builder: (context) {
                 return AlertDialog(
                   content: SizedBox(
-                    height: MediaQuery.of(context).size.height * 0.09,
+                    height: MediaQuery.of(context).size.height * 0.11,
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [

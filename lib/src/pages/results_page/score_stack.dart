@@ -33,7 +33,7 @@ class _ScoreStackState extends State<ScoreStack> {
             color: Theme.of(context).colorScheme.primary,
           ),
           margin: const EdgeInsets.symmetric(horizontal: 5),
-          height: MediaQuery.of(context).size.height * 0.65,
+          height: MediaQuery.of(context).size.height * 0.64,
           width: MediaQuery.of(context).size.width,
         ),
         Positioned(
