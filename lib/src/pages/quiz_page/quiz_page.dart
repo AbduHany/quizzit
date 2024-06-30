@@ -273,12 +273,14 @@ class _QuizPageState extends State<QuizPage> {
                               File(statFile)
                                   .writeAsStringSync(jsonEncode(stats));
                               // Handle end of questions
-                              Navigator.of(context).push(MaterialPageRoute(
-                                  builder: (context) => ResultPage(
-                                        quizQuestions: qa,
-                                        correctCount: correctCount,
-                                        wrongCount: wrongCount,
-                                      )));
+                              Navigator.of(context).pushAndRemoveUntil(
+                                  MaterialPageRoute(
+                                      builder: (context) => ResultPage(
+                                            quizQuestions: qa,
+                                            correctCount: correctCount,
+                                            wrongCount: wrongCount,
+                                          )),
+                                  (r) => false);
                               // currentIndex = 0;
                               // _shuffleAnswers();
                             }

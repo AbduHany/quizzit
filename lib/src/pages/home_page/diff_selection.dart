@@ -74,12 +74,13 @@ class DiffSelection extends StatelessWidget {
                   print(chosenCategory);
                   print(chosenDifficulty);
                 }
-                await Navigator.push(
+                await Navigator.pushAndRemoveUntil(
                     context,
                     MaterialPageRoute(
                         builder: (context) => QuizPage(
                             category: chosenCategory,
-                            difficulty: chosenDifficulty)));
+                            difficulty: chosenDifficulty)),
+                    (r) => false);
               },
               child: Text(
                 "Start Quiz!",
