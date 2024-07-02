@@ -15,7 +15,7 @@ Install [**Quizzit**](https://play.google.com/store/apps/details?id=dev.thedream
 
 - **`flutter`** - Flutter SDK
 - **`cupertino_icons: ^1.0.2`** - iOS style icons
-- **google_fonts: ^5.1.0`** - Google Fonts for custom fonts
+- **`google_fonts: ^5.1.0`** - Google Fonts for custom fonts
 - **`dio: ^5.4.3+1`** - HTTP requests package for API service
 - **`rive: ^0.13.8`** - Rive animation in splash screen
 - **`path_provider: ^2.1.3`** - To get quiz file path
