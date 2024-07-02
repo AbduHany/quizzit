@@ -39,5 +39,5 @@ Install [**Quizzit**](https://play.google.com/store/apps/details?id=dev.thedream
 ## Authors
 
 - [@AbdelrahmanMetawei](https://github.com/Abduhany/)
-- [@ShenoudaMikhael](https://github.com/ShenoudaMikhael)
 - [@Salsapil](https://github.com/Salsapil)
+- [@ShenoudaMikhael](https://github.com/ShenoudaMikhael)
