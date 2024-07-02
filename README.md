@@ -37,10 +37,10 @@ Install [**Quizzit**](https://play.google.com/store/apps/details?id=dev.thedream
 - You can edit your Name, Date of birth and Gender.
 
 ## Related Repositories
-- [Backend Repository](https://github.com/ShenoudaMikhael/quizzit_backend): This repository contains the backend code for our application.
+- [Backend Repository](https://github.com/ShenoudaMikhael/quizzit_backend)- This repository contains the backend code for our application.
 
 ## Authors
 
 - [@AbdelrahmanMetawei](https://github.com/Abduhany/)
-- [@Salsapil](https://github.com/Salsapil)
+- [@SalsabilAhmed](https://github.com/Salsapil)
 - [@ShenoudaMikhael](https://github.com/ShenoudaMikhael)
