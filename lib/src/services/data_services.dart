@@ -58,6 +58,22 @@ class StatsData {
     String filePath =
         (await getApplicationDocumentsDirectory()).path + statData;
     if (File(filePath).existsSync()) {
+      // Handling Strike score calculation
+      Map content = jsonDecode(File(filePath).readAsStringSync());
+      DateTime today = DateTime.now();
+      DateTime lastLogin = DateTime.parse(content["LastLogin"]);
+      int difference = today.difference(lastLogin).inDays;
+      if (difference == 0) {
+        return false;
+      } else if (difference == 1) {
+        content['Strike'] += 1;
+        content['LastLogin'] = today.toIso8601String();
+        File(filePath).writeAsStringSync(jsonEncode(content));
+      } else if (difference > 1) {
+        content['Strike'] = 0;
+        content['LastLogin'] = today.toIso8601String();
+        File(filePath).writeAsStringSync(jsonEncode(content));
+      }
       return false;
     } else {
       File(filePath).writeAsStringSync(jsonEncode({
@@ -65,6 +81,8 @@ class StatsData {
         "CompletedQuiz": 0,
         "CorrectAnswers": 0,
         "WrongAnswers": 0,
+        "LastLogin": DateTime.now().toIso8601String(),
+        "Strike": 0,
       }));
       return true;
     }

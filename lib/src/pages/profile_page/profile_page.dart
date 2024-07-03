@@ -356,7 +356,9 @@ Future<List<Map<String, String>>> resetStats() async {
     "StartedQuiz": 0,
     "CompletedQuiz": 0,
     "CorrectAnswers": 0,
-    "WrongAnswers": 0
+    "WrongAnswers": 0,
+    "LastLogin": DateTime.now().toIso8601String(),
+    "Strike": 0
   }));
   return [
     {"Quiz Started": "0"},

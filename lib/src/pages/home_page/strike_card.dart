@@ -8,6 +8,7 @@ Description:
  */
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:quizzit/src/services/data_services.dart';
 
 class StrikeCard extends StatefulWidget {
   const StrikeCard({super.key});
@@ -16,6 +17,21 @@ class StrikeCard extends StatefulWidget {
 }
 
 class _StrikeCardState extends State<StrikeCard> {
+  Map stats = {'Strike': 0, 'CorrectAnswers': 0};
+
+  @override
+  void initState() {
+    super.initState();
+    // get user stats from the statData.json file
+    StatsData.getData().then(
+      (value) {
+        setState(() {
+          stats = value;
+        });
+      },
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -35,14 +51,16 @@ class _StrikeCardState extends State<StrikeCard> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        "3 Days Strike!",
+                        stats['Strike'] == 0
+                            ? "1 Day Strike!"
+                            : "${stats['Strike'] + 1} Days Strike!",
                         style: GoogleFonts.poppins(
                           color: Colors.white,
                           fontSize: 20,
                         ),
                       ),
                       Text(
-                        "+ 10 daily points",
+                        "Score: ${stats['CorrectAnswers'] * 10}",
                         style: GoogleFonts.poppins(color: Colors.white),
                       )
                     ],
@@ -64,9 +82,9 @@ class _StrikeCardState extends State<StrikeCard> {
               ),
               Container(
                 margin: const EdgeInsets.only(top: 10),
-                child: const LinearProgressIndicator(
-                  valueColor: AlwaysStoppedAnimation<Color>(Colors.black),
-                  value: 0.3,
+                child: LinearProgressIndicator(
+                  valueColor: const AlwaysStoppedAnimation<Color>(Colors.black),
+                  value: ((stats['CorrectAnswers'] * 10) % 100) / 100,
                 ),
               )
             ],
