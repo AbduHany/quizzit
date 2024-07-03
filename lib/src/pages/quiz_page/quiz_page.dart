@@ -2,7 +2,9 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:path_provider/path_provider.dart';
+import 'package:quizzit/src/pages/home_page/home_page.dart';
 import 'package:quizzit/src/pages/quiz_page/radio_button_item.dart';
 import 'package:quizzit/src/pages/results_page/results_page.dart';
 import 'package:quizzit/src/services/api_service.dart';
@@ -79,14 +81,66 @@ class _QuizPageState extends State<QuizPage> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Container(
-        color: Colors.white,
-        child: qa.isNotEmpty && currentIndex < qa.length
-            ? currentQuestion(currentIndex)
-            : const Center(
-                child: CircularProgressIndicator(),
-              ),
+    return PopScope(
+      canPop: false,
+      onPopInvoked: (didPop) async {
+        if (didPop) {
+          return;
+        }
+        final bool shouldPop = await showDialog(
+              context: context,
+              builder: (context) {
+                return AlertDialog(
+                  content: SizedBox(
+                    height: MediaQuery.of(context).size.height * 0.11,
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        const Text("Do you want to exit current quiz?"),
+                        Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              MaterialButton(
+                                  onPressed: () {
+                                    Navigator.of(context).pop(false);
+                                  },
+                                  child: const Text("No")),
+                              MaterialButton(
+                                  // Adding the logic of resetting the Profile stats
+                                  onPressed: () {
+                                    Navigator.of(context).pop(true);
+                                  },
+                                  child: const Text(
+                                    "Yes",
+                                    style: TextStyle(
+                                        color: Colors.red,
+                                        fontWeight: FontWeight.bold),
+                                  ))
+                            ])
+                      ],
+                    ),
+                  ),
+                );
+              },
+            ) ??
+            false;
+        if (context.mounted && shouldPop) {
+          Navigator.pushAndRemoveUntil(
+            context,
+            MaterialPageRoute(builder: (context) => const HomePage()),
+            (route) => false,
+          );
+        }
+      },
+      child: Scaffold(
+        body: Container(
+          color: Colors.white,
+          child: qa.isNotEmpty && currentIndex < qa.length
+              ? currentQuestion(currentIndex)
+              : const Center(
+                  child: CircularProgressIndicator(),
+                ),
+        ),
       ),
     );
   }
