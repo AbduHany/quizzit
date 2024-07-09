@@ -1,5 +1,5 @@
 # QUIZZIT
-(![Logo](images/061.png))
+![Logo](images/Timeline%201(1).gif) 
 
 ## Introduction
 
@@ -72,7 +72,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## Screenshot
+## App Screenshots
 
 <p align="center">
     <img src="images/Categories_features.png" alt="Categories Features" width="200" style="margin-right= 5px"/>
