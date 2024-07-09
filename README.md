@@ -1,6 +1,4 @@
-<div style="text-align:center;">
-    <img src="images/Timeline%201(1).gif" alt="Logo">
-</div>
+![Logo](images/Timeline%201(1).gif)
 
 ## Introduction
 
