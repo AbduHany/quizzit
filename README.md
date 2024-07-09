@@ -1,5 +1,5 @@
 # QUIZZIT
-(![Logo](images/061.png))
+(![Logo](images/))
 
 ## Introduction
 
@@ -75,9 +75,9 @@ SOFTWARE.
 ## Screenshot
 
 <p align="center">
-    <img src="images/Categories_features.png" alt="Categories Features" width="300"/>
-    <img src="images/Difficulty_feature.png" alt="Difficulty Feature" width="300"/>
-    <img src="images/Stats_feature.png" alt="Stats Feature" width="300"/>
+    <img src="images/Categories_features.png" alt="Categories Features" width="200"/>
+    <img src="images/Difficulty_feature.png" alt="Difficulty Feature" width="200"/>
+    <img src="images/Stats_feature.png" alt="Stats Feature" width="200"/>
 </p>
 
 ## Authors GitHub
