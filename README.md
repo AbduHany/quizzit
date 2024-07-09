@@ -79,7 +79,19 @@ SOFTWARE.
     <img src="images/Stats_feature.png" alt="Stats Feature" width="200"/>
 </p>
 
-## Authors GitHub
+## Authors
+
+<div align="center">
+    <a href="https://www.linkedin.com/in/abduhany/">
+        <img src="path_to_abdulrhman_image" alt="Abdulrhman Mohammed" style="border-radius: 50%;" width="100">
+    </a>
+    <a href="https://www.linkedin.com/in/salsabil-ahmed-642a77287/">
+        <img src="path_to_salsabil_image" alt="Salsabil Ahmed" style="border-radius: 50%;" width="100">
+    </a>
+    <a href="https://www.linkedin.com/in/shenoudamikhael/">
+        <img src="path_to_shenouda_image" alt="Shenouda Mikhael" style="border-radius: 50%;" width="100">
+    </a>
+</div>
 
 - [@AbdelrahmanMetawei](https://github.com/Abduhany/)
 - [@SalsabilAhmed](https://github.com/Salsapil)
