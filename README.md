@@ -1,4 +1,3 @@
-# QUIZZIT
 ![Logo](images/Timeline%201(1).gif) 
 
 ## Introduction
