@@ -1,4 +1,6 @@
-![Logo](images/Timeline%201(1).gif) 
+<div style="text-align:center;">
+    <img src="images/Timeline%201(1).gif" alt="Logo">
+</div>
 
 ## Introduction
 
@@ -49,9 +51,9 @@ Install [**Quizzit**](https://play.google.com/store/apps/details?id=dev.thedream
 
 ## MIT License
 
-Copyright (c) 2024 Abduhany
-Copyright (c) 2024 Salsapil
-Copyright (c) 2024 ShenoudaMikhael
+Copyright (c) 2024 Abduhany    
+Copyright (c) 2024 Salsapil    
+Copyright (c) 2024 ShenoudaMikhael   
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -74,9 +76,9 @@ SOFTWARE.
 ## App Screenshots
 
 <p align="center">
-    <img src="images/Categories_features.png" alt="Categories Features" width="200" style="margin-right= 5px"/>
-    <img src="images/Difficulty_feature.png" alt="Difficulty Feature" width="200" style="margin-right= 5px"/>
-    <img src="images/Stats_feature.png" alt="Stats Feature" width="200" style="margin-right= 5px"/>
+    <img src="images/Categories_features.png" alt="Categories Features" width="200"/>
+    <img src="images/Difficulty_feature.png" alt="Difficulty Feature" width="200"/>
+    <img src="images/Stats_feature.png" alt="Stats Feature" width="200"/>
 </p>
 
 ## Authors GitHub
