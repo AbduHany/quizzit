@@ -1,4 +1,8 @@
-![Logo](images/Timeline%201(1).gif)
+<div align="center">
+    <a href="https://play.google.com/store/apps/details?id=dev.thedreamcatcher.quizzit">
+        <img src="images/Timeline 1(1).gif" width="100">
+    </a>
+</div>
 
 ## Introduction
 
