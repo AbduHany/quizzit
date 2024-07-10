@@ -94,7 +94,7 @@ SOFTWARE.
     <img src="images/Stats_feature.png" alt="Stats Feature" width="200"/>
 </p>
 
-## 💡 How Our Project Was Inspired
+## 💡 Project Inspiration
 Our project was inspired by the need to help people practice for quizzes and exams effectively while gaining knowledge. We noticed that many individuals struggle with traditional study methods and wanted to create an interactive solution. Our quiz app allows users to test their knowledge, identify areas for improvement, and make learning enjoyable. *We aim to enhance the learning experience and support users in achieving their goals.*
 
 ## ⏳ Technical challenges
