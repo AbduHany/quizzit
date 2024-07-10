@@ -83,13 +83,13 @@ SOFTWARE.
 
 <div align="center">
     <a href="https://www.linkedin.com/in/abduhany/">
-        <img src="images/Categories_features.png" alt="Abdulrhman Mohammed" style="border-radius: 50%;" width="100">
+        <img src="https://quizzit.thedreamcatcher.dev/devs/abduHany.jpg" alt="Abdulrhman Mohammed" style="border-radius: 50%;" width="100">
     </a>
     <a href="https://www.linkedin.com/in/salsabil-ahmed-642a77287/">
-        <img src="images/Categories_features.png" alt="Salsabil Ahmed" style="border-radius: 50%;" width="100">
+        <img src="https://quizzit.thedreamcatcher.dev/devs/salsabil.jpg" alt="Salsabil Ahmed" style="border-radius: 50%;" width="100">
     </a>
     <a href="https://www.linkedin.com/in/shenoudamikhael/">
-        <img src="images/Categories_features.png" alt="Shenouda Mikhael" style="border-radius: 50%;" width="100">
+        <img src="https://quizzit.thedreamcatcher.dev/devs/shenoudaMikhael.jpg" alt="Shenouda Mikhael" style="border-radius: 50%;" width="100">
     </a>
 </div>
 
