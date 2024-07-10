@@ -94,6 +94,24 @@ SOFTWARE.
     <img src="images/Stats_feature.png" alt="Stats Feature" width="200"/>
 </p>
 
+## 💡 How Our Project Was Inspired
+Our project was inspired by the need to help people practice for quizzes and exams effectively while gaining knowledge. We noticed that many individuals struggle with traditional study methods and wanted to create an interactive solution. Our quiz app allows users to test their knowledge, identify areas for improvement, and make learning enjoyable. *We aim to enhance the learning experience and support users in achieving their goals.*
+
+## ⏳ Technical challenges
+- Learning New Technologies:
+  - Learning Flutter and Dart for frontend development.
+  - Understanding Node.js and Express for backend development.
+  - Getting proficient with Rive for creating animations.
+  so invested considerable time in grasping the intricacies and best practices of these technologies.
+
+- Sourcing Quiz Questions:
+  - Implementing web scraping to gather quiz questions.
+
+- Creating and Integrating Animations:
+  - Developing engaging animations in Rive.
+  - Seamlessly integrating these animations into the Flutter app.
+
+
 ## 👨🏻‍💻 Authors
 
 - [@AbdelrahmanMetawei](https://github.com/Abduhany/)
