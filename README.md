@@ -6,6 +6,9 @@ Our project was inspired by the need to help people practice for quizzes and exa
 - [Deployed Site](https://quizzit.thedreamcatcher.dev/)
 - [Final Project Blog Article](https://your-blog-article-url.com)
 - Authors Linkedin
+  - [Abdulrhman Mohammed](https://www.linkedin.com/in/abduhany/)
+  - [Salsabil Ahmed](https://www.linkedin.com/in/salsabil-ahmed-642a77287/)
+  - [Shenouda Mikhael](https://www.linkedin.com/in/shenoudamikhael/)
   <div align="center">
     <a href="https://www.linkedin.com/in/abduhany/">
         <img src="https://quizzit.thedreamcatcher.dev/devs/abduHany.jpg" alt="Abdulrhman Mohammed" width="100">
