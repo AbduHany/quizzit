@@ -9,7 +9,7 @@
 
 Our project was inspired by the need to help people practice for quizzes and exams effectively while gaining knowledge. We noticed that many individuals struggle with traditional study methods and wanted to create an interactive solution. Our quiz app allows users to test their knowledge, identify areas for improvement, and make learning enjoyable.
 - [Deployed Site](https://quizzit.thedreamcatcher.dev/)
-- [Final Project Blog Article](https://your-blog-article-url.com)
+- [Final Project Blog Article](https://medium.com/@shenouda.mikhael/quizzit-445a123f6521)
 - Authors Linkedin
   - [Abdulrhman Mohammed](https://www.linkedin.com/in/abduhany/)
   - [Salsabil Ahmed](https://www.linkedin.com/in/salsabil-ahmed-642a77287/)
