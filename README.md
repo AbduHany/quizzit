@@ -6,9 +6,17 @@ Our project was inspired by the need to help people practice for quizzes and exa
 - [Deployed Site](https://quizzit.thedreamcatcher.dev/)
 - [Final Project Blog Article](https://your-blog-article-url.com)
 - Authors Linkedin
-  - [Abdulrhman Mohammed](https://www.linkedin.com/in/abduhany/)
-  - [Salsabil Ahmed](https://www.linkedin.com/in/salsabil-ahmed-642a77287/)
-  - [Shenouda Mikhael](https://www.linkedin.com/in/shenoudamikhael/)
+  <div align="center">
+    <a href="https://www.linkedin.com/in/abduhany/">
+        <img src="https://quizzit.thedreamcatcher.dev/devs/abduHany.jpg" alt="Abdulrhman Mohammed" width="100">
+    </a>
+    <a href="https://www.linkedin.com/in/salsabil-ahmed-642a77287/">
+        <img src="https://quizzit.thedreamcatcher.dev/devs/salsabil.jpg" alt="Salsabil Ahmed" width="100">
+    </a>
+    <a href="https://www.linkedin.com/in/shenoudamikhael/">
+        <img src="https://quizzit.thedreamcatcher.dev/devs/shenoudaMikhael.jpg" alt="Shenouda Mikhael" width="100">
+    </a>
+  </div>
 
 ## Features
 - Choose from different categories which are always up-to-date.
@@ -80,18 +88,6 @@ SOFTWARE.
 </p>
 
 ## Authors
-
-<div align="center">
-    <a href="https://www.linkedin.com/in/abduhany/">
-        <img src="https://quizzit.thedreamcatcher.dev/devs/abduHany.jpg" alt="Abdulrhman Mohammed" style="clip-path: circle(50%);" width="100">
-    </a>
-    <a href="https://www.linkedin.com/in/salsabil-ahmed-642a77287/">
-        <img src="https://quizzit.thedreamcatcher.dev/devs/salsabil.jpg" alt="Salsabil Ahmed" style="clip-path: circle(50%);" width="100">
-    </a>
-    <a href="https://www.linkedin.com/in/shenoudamikhael/">
-        <img src="https://quizzit.thedreamcatcher.dev/devs/shenoudaMikhael.jpg" alt="Shenouda Mikhael" style="clip-path: circle(50%);" width="100">
-    </a>
-</div>
 
 - [@AbdelrahmanMetawei](https://github.com/Abduhany/)
 - [@SalsabilAhmed](https://github.com/Salsapil)
