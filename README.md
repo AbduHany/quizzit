@@ -1,11 +1,10 @@
 <div align="center">
     <a href="https://play.google.com/store/apps/details?id=dev.thedreamcatcher.quizzit">
-        <img src="images/Timeline 1(1).gif" width="100%">
+        <img src="images/061.png" width="20%">
     </a>
     <a href="https://play.google.com/store/apps/details?id=dev.thedreamcatcher.quizzit">
-        <img src="images/061.pngf" width="100%">
+        <img src="images/Timeline 1(1).gif" width="80%">
     </a>
-
 </div>
 
 ## Introduction
